@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.13)  13 JUN 2022 18:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.13)  13 JUN 2022 22:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -892,12 +892,7 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
 [2]
-\openout5 = `Article.fff'.
-
-(Article.fff)
-Overfull \hbox (25.05641pt too wide) in paragraph at lines 269--270
-[]\T1/lmr/m/n/12 În privin[]a \T1/lmr/bx/n/12 actelor nor-ma-tive care re-gle-menteaz  or-ga-ni-zarea []i func[]ionarea autorit []ii
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
@@ -907,6 +902,21 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
 [3]
+\openout5 = `Article.fff'.
+
+(Article.fff)
+Overfull \hbox (25.05641pt too wide) in paragraph at lines 281--282
+[]\T1/lmr/m/n/12 În privin[]a \T1/lmr/bx/n/12 actelor nor-ma-tive care re-gle-menteaz  or-ga-ni-zarea []i func[]ionarea autorit []ii
+ []
+
+
+Overfull \hbox (23.22336pt too wide) in paragraph at lines 301--301
+[][]\T1/lmr/bx/it/12 b. Struc-tura or-ga-ni-za-toric , atribu[]iile de-par-ta-mentelor, pro-gra-mul de func[]ionare,
+ []
+
+
+Underfull \vbox (badness 1199) has occurred while \output is active []
+
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -923,12 +933,31 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
 [5]
-Overfull \hbox (9.09421pt too wide) in paragraph at lines 459--460
+Overfull \hbox (3.30487pt too wide) in paragraph at lines 433--433
+[][]\T1/lmr/bx/it/12 h. Lista cuprinzând cat-e-gori-ile de doc-u-mente pro-duse []i/sau ges-tion-ate, potrivit
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[6]
+Overfull \hbox (9.09421pt too wide) in paragraph at lines 501--502
 []\T1/lmr/m/n/12 În ceea ce prive[]te \T1/lmr/bx/n/12 Hot râri de Con-siliu \T1/lmr/m/n/12 nu apar diferen[]e statis-tic sem-ni-fica-tive ($\OML/lmm/m/it/12 ^^_$$[]$\T1/lmr/m/n/12 (2)=2.31,
  []
 
 
-Overfull \hbox (20.90265pt too wide) in paragraph at lines 478--479
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[7]
+Overfull \hbox (20.90265pt too wide) in paragraph at lines 523--524
 []\T1/lmr/m/n/12 În privin[]a \T1/lmr/bx/n/12 Con-tracte de achizi[]ii pub-lice \T1/lmr/m/n/12 rezult  diferen[]e statis-tic sem-ni-fica-tive ($\OML/lmm/m/it/12 ^^_$$[]$\T1/lmr/m/n/12 (2)=7.42,
  []
 
@@ -939,7 +968,7 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[6] AED endfloat: Processing end Figures and Tables
+[8] AED endfloat: Processing end Figures and Tables
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -947,8 +976,8 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[7] (./Article.fff
-<Article_files/figure-latex/Analysis-1.pdf, id=133, 469.755pt x 325.215pt>
+[9] (./Article.fff
+<Article_files/figure-latex/Analysis-1.pdf, id=247, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Analysis-1.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Analysis-1.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Analysis-1.pdf  used on input line 5.
@@ -960,11 +989,11 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[8
+[10
 
 
  <./Article_files/figure-latex/Analysis-1.pdf>]
-<Article_files/figure-latex/Bar-Range-I1-1.pdf, id=144, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Bar-Range-I1-1.pdf, id=258, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Bar-Range-I1-1.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Bar-Range-I1-1.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I1-1.pdf  used on input line 17.
@@ -976,10 +1005,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[9
+[11
 
  <./Article_files/figure-latex/Bar-Range-I1-1.pdf>]
-<Article_files/figure-latex/Analysis-2.pdf, id=155, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Analysis-2.pdf, id=268, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Analysis-2.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Analysis-2.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Analysis-2.pdf  used on input line 29.
@@ -991,10 +1020,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[10
+[12
 
  <./Article_files/figure-latex/Analysis-2.pdf>]
-<Article_files/figure-latex/Bar-Range-I2-1.pdf, id=167, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Bar-Range-I2-1.pdf, id=279, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Bar-Range-I2-1.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Bar-Range-I2-1.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I2-1.pdf  used on input line 41.
@@ -1006,10 +1035,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[11
+[13
 
  <./Article_files/figure-latex/Bar-Range-I2-1.pdf>]
-<Article_files/figure-latex/Analysis-3.pdf, id=178, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Analysis-3.pdf, id=291, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Analysis-3.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Analysis-3.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Analysis-3.pdf  used on input line 53.
@@ -1021,10 +1050,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[12
+[14
 
  <./Article_files/figure-latex/Analysis-3.pdf>]
-<Article_files/figure-latex/Bar-Range-I3-1.pdf, id=190, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Bar-Range-I3-1.pdf, id=302, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Bar-Range-I3-1.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Bar-Range-I3-1.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I3-1.pdf  used on input line 65.
@@ -1036,10 +1065,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[13
+[15
 
  <./Article_files/figure-latex/Bar-Range-I3-1.pdf>]
-<Article_files/figure-latex/Analysis-4.pdf, id=202, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Analysis-4.pdf, id=312, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Analysis-4.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Analysis-4.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Analysis-4.pdf  used on input line 77.
@@ -1051,10 +1080,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[14
+[16
 
  <./Article_files/figure-latex/Analysis-4.pdf>]
-<Article_files/figure-latex/Bar-Range-I4-1.pdf, id=214, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Bar-Range-I4-1.pdf, id=323, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Bar-Range-I4-1.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Bar-Range-I4-1.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I4-1.pdf  used on input line 89.
@@ -1066,10 +1095,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[15
+[17
 
  <./Article_files/figure-latex/Bar-Range-I4-1.pdf>]
-<Article_files/figure-latex/Analysis-5.pdf, id=225, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Analysis-5.pdf, id=333, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Analysis-5.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Analysis-5.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Analysis-5.pdf  used on input line 101.
@@ -1081,10 +1110,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[16
+[18
 
  <./Article_files/figure-latex/Analysis-5.pdf>]
-<Article_files/figure-latex/Bar-Range-I5-1.pdf, id=237, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Bar-Range-I5-1.pdf, id=344, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Bar-Range-I5-1.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Bar-Range-I5-1.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I5-1.pdf  used on input line 113.
@@ -1096,10 +1125,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[17
+[19
 
  <./Article_files/figure-latex/Bar-Range-I5-1.pdf>]
-<Article_files/figure-latex/Analysis-6.pdf, id=248, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Analysis-6.pdf, id=355, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Analysis-6.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Analysis-6.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Analysis-6.pdf  used on input line 125.
@@ -1111,10 +1140,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[18
+[20
 
  <./Article_files/figure-latex/Analysis-6.pdf>]
-<Article_files/figure-latex/Bar-Range-I6-1.pdf, id=259, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Bar-Range-I6-1.pdf, id=366, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Bar-Range-I6-1.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Bar-Range-I6-1.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I6-1.pdf  used on input line 137.
@@ -1126,10 +1155,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[19
+[21
 
  <./Article_files/figure-latex/Bar-Range-I6-1.pdf>]
-<Article_files/figure-latex/Analysis-7.pdf, id=270, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Analysis-7.pdf, id=376, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Analysis-7.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Analysis-7.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Analysis-7.pdf  used on input line 149.
@@ -1141,10 +1170,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[20
+[22
 
  <./Article_files/figure-latex/Analysis-7.pdf>]
-<Article_files/figure-latex/Bar-Range-I7-1.pdf, id=282, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Bar-Range-I7-1.pdf, id=387, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Bar-Range-I7-1.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Bar-Range-I7-1.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I7-1.pdf  used on input line 161.
@@ -1156,10 +1185,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[21
+[23
 
  <./Article_files/figure-latex/Bar-Range-I7-1.pdf>]
-<Article_files/figure-latex/Analysis-8.pdf, id=292, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Analysis-8.pdf, id=397, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Analysis-8.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Analysis-8.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Analysis-8.pdf  used on input line 173.
@@ -1171,10 +1200,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[22
+[24
 
  <./Article_files/figure-latex/Analysis-8.pdf>]
-<Article_files/figure-latex/Bar-Range-I8-1.pdf, id=303, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Bar-Range-I8-1.pdf, id=408, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Bar-Range-I8-1.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Bar-Range-I8-1.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I8-1.pdf  used on input line 185.
@@ -1186,10 +1215,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[23
+[25
 
  <./Article_files/figure-latex/Bar-Range-I8-1.pdf>]
-<Article_files/figure-latex/Analysis-9.pdf, id=313, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Analysis-9.pdf, id=420, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Analysis-9.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Analysis-9.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Analysis-9.pdf  used on input line 197.
@@ -1201,10 +1230,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[24
+[26
 
  <./Article_files/figure-latex/Analysis-9.pdf>]
-<Article_files/figure-latex/Bar-Range-I9-1.pdf, id=324, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Bar-Range-I9-1.pdf, id=431, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Bar-Range-I9-1.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Bar-Range-I9-1.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I9-1.pdf  used on input line 209.
@@ -1216,10 +1245,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[25
+[27
 
  <./Article_files/figure-latex/Bar-Range-I9-1.pdf>]
-<Article_files/figure-latex/Analysis-10.pdf, id=335, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Analysis-10.pdf, id=441, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Analysis-10.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Analysis-10.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Analysis-10.pdf  used on input line 221.
@@ -1231,10 +1260,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[26
+[28
 
  <./Article_files/figure-latex/Analysis-10.pdf>]
-<Article_files/figure-latex/Bar-Range-I10-1.pdf, id=347, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Bar-Range-I10-1.pdf, id=452, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Bar-Range-I10-1.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Bar-Range-I10-1.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I10-1.pdf  used on input line 233.
@@ -1246,10 +1275,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[27
+[29
 
  <./Article_files/figure-latex/Bar-Range-I10-1.pdf>]
-<Article_files/figure-latex/Analysis-11.pdf, id=358, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Analysis-11.pdf, id=462, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Analysis-11.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Analysis-11.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Analysis-11.pdf  used on input line 245.
@@ -1261,10 +1290,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[28
+[30
 
  <./Article_files/figure-latex/Analysis-11.pdf>]
-<Article_files/figure-latex/Bar-Range-I11-1.pdf, id=370, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Bar-Range-I11-1.pdf, id=473, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Bar-Range-I11-1.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Bar-Range-I11-1.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I11-1.pdf  used on input line 257.
@@ -1276,10 +1305,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[29
+[31
 
  <./Article_files/figure-latex/Bar-Range-I11-1.pdf>]
-<Article_files/figure-latex/Analysis-12.pdf, id=381, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Analysis-12.pdf, id=484, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Analysis-12.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Analysis-12.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Analysis-12.pdf  used on input line 269.
@@ -1291,10 +1320,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[30
+[32
 
  <./Article_files/figure-latex/Analysis-12.pdf>]
-<Article_files/figure-latex/Bar-Range-I12-1.pdf, id=392, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Bar-Range-I12-1.pdf, id=495, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Bar-Range-I12-1.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Bar-Range-I12-1.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I12-1.pdf  used on input line 281.
@@ -1306,10 +1335,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[31
+[33
 
  <./Article_files/figure-latex/Bar-Range-I12-1.pdf>]
-<Article_files/figure-latex/Analysis-13.pdf, id=403, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Analysis-13.pdf, id=505, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Analysis-13.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Analysis-13.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Analysis-13.pdf  used on input line 293.
@@ -1321,10 +1350,10 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[32
+[34
 
  <./Article_files/figure-latex/Analysis-13.pdf>]
-<Article_files/figure-latex/Bar-Range-I13-1.pdf, id=416, 469.755pt x 325.215pt>
+<Article_files/figure-latex/Bar-Range-I13-1.pdf, id=516, 469.755pt x 325.215pt>
 File: Article_files/figure-latex/Bar-Range-I13-1.pdf Graphic file (type pdf)
 <use Article_files/figure-latex/Bar-Range-I13-1.pdf>
 Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I13-1.pdf  used on input line 305.
@@ -1337,25 +1366,25 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
-[33
+[35
 
  <./Article_files/figure-latex/Bar-Range-I13-1.pdf>] (./Article.aux)
 Package rerunfilecheck Info: File `Article.out' has not changed.
-(rerunfilecheck)             Checksum: A0B1134E6BDE81E4190FA811BA5F68C7;1120.
+(rerunfilecheck)             Checksum: 5E212FDE7EC041F677DCA965A6E80684;8124.
  ) 
 Here is how much of TeX's memory you used:
- 26694 strings out of 480000
- 510265 string characters out of 5886844
- 789092 words of memory out of 5000000
- 44254 multiletter control sequences out of 15000+600000
- 515469 words of font info for 64 fonts, out of 8000000 for 9000
+ 26761 strings out of 480000
+ 513433 string characters out of 5886844
+ 791201 words of memory out of 5000000
+ 44288 multiletter control sequences out of 15000+600000
+ 524011 words of font info for 66 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,11n,103p,907b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx6.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss8.pfb>
-Output written on Article.pdf (33 pages, 268972 bytes).
+ 99i,11n,103p,1255b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx6.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss8.pfb>
+Output written on Article.pdf (35 pages, 299167 bytes).
 PDF statistics:
- 485 PDF objects out of 1000 (max. 8388607)
- 378 compressed objects within 4 object streams
- 87 named destinations out of 1000 (max. 500000)
- 215 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 595 PDF objects out of 1000 (max. 8388607)
+ 483 compressed objects within 5 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 327 words of extra memory for PDF output out of 10000 (max. 10000000)
 
