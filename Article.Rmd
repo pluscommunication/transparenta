@@ -97,14 +97,31 @@ We used `r cite_r("r-references.bib")` for all our analyses.
 ```{r Range, echo=F}
   # Item 1
   chi.1 <- round(chi.R.I1$statistic, 2);  df.chi.1 <- chi.R.I1$parameter; p.chi.1 <- chi.R.I1$p.value
-  mun.n <- R.I.1.prop[1,1]; mun.y <- R.I.1.prop[2,1]
-  cit.n <- R.I.1.prop[1,2]; cit.y <- R.I.1.prop[2,2]
-  vil.n <- R.I.1.prop[1,3]; vil.y <- R.I.1.prop[2,3]
+  mun.n.1 <- R.I.1.prop[1,1]; mun.y.1 <- R.I.1.prop[2,1]
+  cit.n.1 <- R.I.1.prop[1,2]; cit.y.1 <- R.I.1.prop[2,2]
+  vil.n.1 <- R.I.1.prop[1,3]; vil.y.1 <- R.I.1.prop[2,3]
+  
+  # Item 2
+  chi.2 <- round(chi.R.I2$statistic, 2);  df.chi.2 <- chi.R.I2$parameter; p.chi.2 <- chi.R.I2$p.value
+  mun.n.2 <- R.I.2.prop[1,1]; mun.y.2 <- R.I.2.prop[2,1]
+  cit.n.2 <- R.I.2.prop[1,2]; cit.y.2 <- R.I.2.prop[2,2]
+  vil.n.2 <- R.I.2.prop[1,3]; vil.y.2 <- R.I.2.prop[2,3]
 ```
 ```{r Moz-Range-I1, fig.align='center', fig.cap='Contingency: - Locality rank vs. Normative documents'}
   knitr::include_graphics("Article_files/figure-latex/Analysis-1.png")
 ```
-În privința *actelor normative care reglementează organizarea și funcționarea autorității sau instituției publice* rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.1`)=`r chi.1`, p=`r p.chi.1`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că actele normative de acest tip par a nu exista mai curând la nivelul **comunelor** (`r vil.n`% „Nu” față de `r vil.y`% „Da”) în comparație cu orașele (`r cit.n`% „Nu” față de `r cit.y`% „Da”) și municipiile (`r mun.n`% „Nu” față de `r mun.y`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figura \@ref(fig:Moz-Range-I1)).
+```{r Bar-Range-I1, echo = F, warning=F, fig.align='center', fig.cap='Barplot: - Locality rank vs. Normative documents'}
+  R.I.1.plot
+```
+În privința *actelor normative care reglementează organizarea și funcționarea autorității sau instituției publice* rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.1`)=`r chi.1`, p=`r p.chi.1`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că actele normative de acest tip nu există mai curând la nivelul **comunelor** (`r vil.n.1`% „Nu” față de `r vil.y.1`% „Da”) în comparație cu orașele (`r cit.n.1`% „Nu” față de `r cit.y.1`% „Da”) și municipiile (`r mun.n.1`% „Nu” față de `r mun.y.1`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I1) și \@ref(fig:Bar-Range-I1)).
+
+```{r Moz-Range-I2, fig.align='center', fig.cap='Contingency: - Locality rank vs. Organizatoric structure'}
+  knitr::include_graphics("Article_files/figure-latex/Analysis-2.png")
+```
+```{r Bar-Range-I2, echo = F, warning=F, fig.align='center', fig.cap='Barplot: - Locality rank vs. Organizatoric structure'}
+  R.I.2.plot
+```
+Din punct de vedere al *structurii organizatorice, atribuțiilor departamentelor, programul de funcționare, programul de audiențe al autorității sau instituției publice* nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.2`)=`r chi.2`, p=`r p.chi.2`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.2`%, Orașe: `r cit.y.2`%, Municipii: `r mun.y.2`%) în favoarea celor negative (Comune: `r vil.n.2`%, Orașe: `r cit.n.2`%, Municipii: `r mun.n.2`%) 
 
 
 # Discussion
