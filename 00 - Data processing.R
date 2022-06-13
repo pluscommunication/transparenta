@@ -8,3 +8,8 @@ ds <- foreign::read.spss("Lucrare-cu-isabela.sav", use.value.labels = T, to.data
 colnames(ds) <- c("regiune", "judet", "localitatea", "rang",
                   paste("i", 1:13, sep = "")); head(ds)
 
+# Recoding factor
+ds$rang <- factor(ds$rang, labels = c("Municipiu", "Oraș", "Comună"))
+
+# Saving data
+save(ds, file = "Date.RData")
