@@ -90,6 +90,201 @@ We used `r cite_r("r-references.bib")` for all our analyses.
 
 
 # Results
+```{r Analysis, echo=F, include=F}
+  source("01 - Analysis.R")
+```
+# Analiza contingenței în funcție de rangul localității 
+```{r Range, echo=F}
+  # Item 1
+  chi.1 <- round(chi.R.I1$statistic, 2);  df.chi.1 <- chi.R.I1$parameter; p.chi.1 <- chi.R.I1$p.value
+  mun.n.1 <- R.I.1.prop[1,1]; mun.y.1 <- R.I.1.prop[2,1]
+  cit.n.1 <- R.I.1.prop[1,2]; cit.y.1 <- R.I.1.prop[2,2]
+  vil.n.1 <- R.I.1.prop[1,3]; vil.y.1 <- R.I.1.prop[2,3]
+  
+  # Item 2
+  chi.2 <- round(chi.R.I2$statistic, 2);  df.chi.2 <- chi.R.I2$parameter; p.chi.2 <- chi.R.I2$p.value
+  mun.n.2 <- R.I.2.prop[1,1]; mun.y.2 <- R.I.2.prop[2,1]
+  cit.n.2 <- R.I.2.prop[1,2]; cit.y.2 <- R.I.2.prop[2,2]
+  vil.n.2 <- R.I.2.prop[1,3]; vil.y.2 <- R.I.2.prop[2,3]
+  
+   # Item 3
+  chi.3 <- round(chi.R.I3$statistic, 2);  df.chi.3 <- chi.R.I3$parameter; p.chi.3 <- chi.R.I3$p.value
+  mun.n.3 <- R.I.3.prop[1,1]; mun.y.3 <- R.I.3.prop[2,1]
+  cit.n.3 <- R.I.3.prop[1,2]; cit.y.3 <- R.I.3.prop[2,2]
+  vil.n.3 <- R.I.3.prop[1,3]; vil.y.3 <- R.I.3.prop[2,3]
+  
+  # Item 4
+  chi.4 <- round(chi.R.I4$statistic, 2);  df.chi.4 <- chi.R.I4$parameter; p.chi.4 <- chi.R.I4$p.value
+  mun.n.4 <- R.I.4.prop[1,1]; mun.y.4 <- R.I.4.prop[2,1]
+  cit.n.4 <- R.I.4.prop[1,2]; cit.y.4 <- R.I.4.prop[2,2]
+  vil.n.4 <- R.I.4.prop[1,3]; vil.y.4 <- R.I.4.prop[2,3]
+  
+  # Item 5
+  chi.5 <- round(chi.R.I5$statistic, 2);  df.chi.5 <- chi.R.I5$parameter; p.chi.5 <- chi.R.I5$p.value
+  mun.n.5 <- R.I.5.prop[1,1]; mun.y.5 <- R.I.5.prop[2,1]
+  cit.n.5 <- R.I.5.prop[1,2]; cit.y.5 <- R.I.5.prop[2,2]
+  vil.n.5 <- R.I.5.prop[1,3]; vil.y.5 <- R.I.5.prop[2,3]
+  
+  # Item 6
+  chi.6 <- round(chi.R.I6$statistic, 2);  df.chi.6 <- chi.R.I6$parameter; p.chi.6 <- chi.R.I6$p.value
+  mun.n.6 <- R.I.6.prop[1,1]; mun.y.6 <- R.I.6.prop[2,1]
+  cit.n.6 <- R.I.6.prop[1,2]; cit.y.6 <- R.I.6.prop[2,2]
+  vil.n.6 <- R.I.6.prop[1,3]; vil.y.6 <- R.I.6.prop[2,3]
+  
+  # Item 7
+  chi.7 <- round(chi.R.I7$statistic, 2);  df.chi.7 <- chi.R.I7$parameter; p.chi.7 <- chi.R.I7$p.value
+  mun.n.7 <- R.I.7.prop[1,1]; mun.y.7 <- R.I.7.prop[2,1]
+  cit.n.7 <- R.I.7.prop[1,2]; cit.y.7 <- R.I.7.prop[2,2]
+  vil.n.7 <- R.I.7.prop[1,3]; vil.y.7 <- R.I.7.prop[2,3]
+  
+  # Item 8
+  chi.8 <- round(chi.R.I8$statistic, 2);  df.chi.8 <- chi.R.I8$parameter; p.chi.8 <- chi.R.I8$p.value
+  mun.n.8 <- R.I.8.prop[1,1]; mun.y.8 <- R.I.8.prop[2,1]
+  cit.n.8 <- R.I.8.prop[1,2]; cit.y.8 <- R.I.8.prop[2,2]
+  vil.n.8 <- R.I.8.prop[1,3]; vil.y.8 <- R.I.8.prop[2,3]
+  
+  # Item 9
+  chi.9 <- round(chi.R.I9$statistic, 2);  df.chi.9 <- chi.R.I9$parameter; p.chi.9 <- chi.R.I9$p.value
+  mun.n.9 <- R.I.9.prop[1,1]; mun.y.9 <- R.I.9.prop[2,1]
+  cit.n.9 <- R.I.9.prop[1,2]; cit.y.9 <- R.I.9.prop[2,2]
+  vil.n.9 <- R.I.9.prop[1,3]; vil.y.9 <- R.I.9.prop[2,3]
+  
+  # Item 10
+  chi.10 <- round(chi.R.I10$statistic, 2);  df.chi.10 <- chi.R.I10$parameter; p.chi.10 <- chi.R.I10$p.value
+  mun.n.10 <- R.I.10.prop[1,1]; mun.y.10 <- R.I.10.prop[2,1]
+  cit.n.10 <- R.I.10.prop[1,2]; cit.y.10 <- R.I.10.prop[2,2]
+  vil.n.10 <- R.I.10.prop[1,3]; vil.y.10 <- R.I.10.prop[2,3]
+  
+  # Item 11
+  chi.11 <- round(chi.R.I11$statistic, 2);  df.chi.11 <- chi.R.I11$parameter; p.chi.11 <- chi.R.I11$p.value
+  mun.n.11 <- R.I.11.prop[1,1]; mun.y.11 <- R.I.11.prop[2,1]
+  cit.n.11 <- R.I.11.prop[1,2]; cit.y.11 <- R.I.11.prop[2,2]
+  vil.n.11 <- R.I.11.prop[1,3]; vil.y.11 <- R.I.11.prop[2,3]
+  
+  # Item 12
+  chi.12 <- round(chi.R.I12$statistic, 2);  df.chi.12 <- chi.R.I12$parameter; p.chi.12 <- chi.R.I12$p.value
+  mun.n.12 <- R.I.12.prop[1,1]; mun.y.12 <- R.I.12.prop[2,1]
+  cit.n.12 <- R.I.12.prop[1,2]; cit.y.12 <- R.I.12.prop[2,2]
+  vil.n.12 <- R.I.12.prop[1,3]; vil.y.12 <- R.I.12.prop[2,3]
+  
+  # Item 13
+  chi.13 <- round(chi.R.I13$statistic, 2);  df.chi.13 <- chi.R.I13$parameter; p.chi.13 <- chi.R.I13$p.value
+  mun.n.13 <- R.I.13.prop[1,1]; mun.y.13 <- R.I.13.prop[2,1]
+  cit.n.13 <- R.I.13.prop[1,2]; cit.y.13 <- R.I.13.prop[2,2]
+  vil.n.13 <- R.I.13.prop[1,3]; vil.y.13 <- R.I.13.prop[2,3]
+  
+```
+```{r Moz-Range-I1, fig.align='center', fig.cap='Contingency: - Locality rank vs. Normative documents'}
+  knitr::include_graphics("Article_files/figure-latex/Analysis-1.png")
+```
+```{r Bar-Range-I1, echo = F, warning=F, fig.align='center', fig.cap='Barplot: - Locality rank vs. Normative documents'}
+  R.I.1.plot
+```
+În privința **actelor normative care reglementează organizarea și funcționarea autorității sau instituției publice** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.1`)=`r chi.1`, p=`r p.chi.1`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că actele normative de acest tip nu există mai curând la nivelul **comunelor** (`r vil.n.1`% „Nu” față de `r vil.y.1`% „Da”) în comparație cu orașele (`r cit.n.1`% „Nu” față de `r cit.y.1`% „Da”) și municipiile (`r mun.n.1`% „Nu” față de `r mun.y.1`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I1) și \@ref(fig:Bar-Range-I1)).
+
+```{r Moz-Range-I2, fig.align='center', fig.cap='Contingency: - Locality rank vs. Organizatoric structure'}
+  knitr::include_graphics("Article_files/figure-latex/Analysis-2.png")
+```
+```{r Bar-Range-I2, echo = F, warning=F, fig.align='center', fig.cap='Barplot: - Locality rank vs. Organizatoric structure'}
+  R.I.2.plot
+```
+Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelor, programul de funcționare, programul de audiențe al autorității sau instituției publice** nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.2`)=`r chi.2`, p=`r p.chi.2`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.2`%, Orașe: `r cit.y.2`%, Municipii: `r mun.y.2`%) în favoarea celor negative (Comune: `r vil.n.2`%, Orașe: `r cit.n.2`%, Municipii: `r mun.n.2`%) 
+
+```{r Moz-Range-I3, fig.align='center', fig.cap='Contingency: - Locality rank vs. Contacts of the persons in charge'}
+  knitr::include_graphics("Article_files/figure-latex/Analysis-3.png")
+```
+```{r Bar-Range-I3, echo = F, warning=F, fig.align='center', fig.cap='Barplot: - Locality rank vs. Contacts of the persons in charge'}
+  R.I.3.plot
+```
+
+În ceea ce privește **numele persoanelor din conducerea autorității sau a instituției publice și ale funcționarului responsabil cu difuzarea informațiilor publice** nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.3`)=`r chi.3`, p=`r p.chi.3`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.3`%, Orașe: `r cit.y.3`%, Municipii: `r mun.y.3`%) în favoarea celor negative (Comune: `r vil.n.3`%, Orașe: `r cit.n.3`%, Municipii: `r mun.n.3`%) 
+
+
+```{r Moz-Range-I4, fig.align='center', fig.cap='Contingency: - Locality rank vs. Contact details of the public authority'}
+  knitr::include_graphics("Article_files/figure-latex/Analysis-4.png")
+```
+```{r Bar-Range-I4, echo = F, warning=F, fig.align='center', fig.cap='Barplot: - Locality rank vs. Contact details of the public authority'}
+  R.I.4.plot
+```
+
+În ceea ce privește **coordonatele de contact ale autorității sau instituției publice, respectiv: denumirea, sediul, numerele de telefon, fax, adresa de e-mail și adresa paginii de Internet** nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.4`)=`r chi.4`, p=`r p.chi.4`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.4`%, Orașe: `r cit.y.4`%, Municipii: `r mun.y.4`%) în favoarea celor negative (Comune: `r vil.n.4`%, Orașe: `r cit.n.4`%, Municipii: `r mun.n.4`%). 
+
+```{r Moz-Range-I5, fig.align='center', fig.cap='Contingency: - Locality rank vs. Financial sources, budget and balance sheet'}
+  knitr::include_graphics("Article_files/figure-latex/Analysis-5.png")
+```
+```{r Bar-Range-I5, echo = F, warning=F, fig.align='center', fig.cap='Barplot: - Locality rank vs. Financial sources, budget and balance sheet'}
+  R.I.5.plot
+```
+În ceea ce privește **sursele financiare, bugetul și bilanțul contabil** nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.5`)=`r chi.5`, p=`r p.chi.5`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.5`%, Orașe: `r cit.y.5`%, Municipii: `r mun.y.5`%) în favoarea celor negative (Comune: `r vil.n.5`%, Orașe: `r cit.n.5`%, Municipii: `r mun.n.5`%). 
+
+```{r Moz-Range-I6, fig.align='center', fig.cap='Contingency: - Locality rank vs. Own programs and strategies'}
+  knitr::include_graphics("Article_files/figure-latex/Analysis-6.png")
+```
+```{r Bar-Range-I6, echo = F, warning=F, fig.align='center', fig.cap='Barplot: - Locality rank vs. Own programs and strategies'}
+  R.I.6.plot
+```
+
+În privința **programele și strategiile proprii** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.6`)=`r chi.6`, p=`r p.chi.6`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că actele normative de acest tip nu există mai curând la nivelul **comunelor** (`r vil.n.6`% „Nu” față de `r vil.y.6`% „Da”) în comparație cu orașele (`r cit.n.6`% „Nu” față de `r cit.y.6`% „Da”) și municipiile (`r mun.n.6`% „Nu” față de `r mun.y.6`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I6) și \@ref(fig:Bar-Range-I6)).
+
+```{r Moz-Range-I7, fig.align='center', fig.cap='Contingency: - Locality rank vs. The list of documents of public interest'}
+  knitr::include_graphics("Article_files/figure-latex/Analysis-7.png")
+```
+```{r Bar-Range-I7, echo = F, warning=F, fig.align='center', fig.cap='Barplot: - The list of documents of public interest'}
+  R.I.7.plot
+```
+
+În privința **lista cuprinzând documentele de interes public** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.7`)=`r chi.7`, p=`r p.chi.7`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că actele normative de acest tip nu există mai curând la nivelul **comunelor** (`r vil.n.7`% „Nu” față de `r vil.y.7`% „Da”) în comparație cu orașele (`r cit.n.7`% „Nu” față de `r cit.y.7`% „Da”) și municipiile (`r mun.n.7`% „Nu” față de `r mun.y.7`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I7) și \@ref(fig:Bar-Range-I7)).
+
+```{r Moz-Range-I8, fig.align='center', fig.cap='Contingency: - Locality rank vs. the list containing the categories of documents produced and / or managed, according to the law'}
+  knitr::include_graphics("Article_files/figure-latex/Analysis-8.png")
+```
+```{r Bar-Range-I8, echo = F, warning=F, fig.align='center', fig.cap='Barplot: - Locality rank vs. the list containing the categories of documents produced and / or managed, according to the law'}
+  R.I.8.plot
+```
+
+În privința **lista cuprinzând categoriile de documente produse și/sau gestionate, potrivit legii** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.8`)=`r chi.8`, p=`r p.chi.8`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că actele normative de acest tip nu există mai curând la nivelul **comunelor** (`r vil.n.8`% „Nu” față de `r vil.y.8`% „Da”) în comparație cu orașele (`r cit.n.8`% „Nu” față de `r cit.y.8`% „Da”) și municipiile (`r mun.n.8`% „Nu” față de `r mun.y.8`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I8) și \@ref(fig:Bar-Range-I8)).
+
+```{r Moz-Range-I9, fig.align='center', fig.cap='Contingency: - Locality rank vs. The modalities of contesting the decision'}
+  knitr::include_graphics("Article_files/figure-latex/Analysis-9.png")
+```
+```{r Bar-Range-I9, echo = F, warning=F, fig.align='center', fig.cap='Barplot: - Locality rank vs. The modalities of contesting the decision'}
+  R.I.9.plot
+```
+
+În privința **modalitățile de contestare a deciziei autorității sau a instituției publice în situația în care persoana se considera vătămată în privința dreptului de acces la informațiile de interes public solicitate** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.9`)=`r chi.9`, p=`r p.chi.9`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că actele normative de acest tip nu există mai curând la nivelul **comunelor** (`r vil.n.9`% „Nu” față de `r vil.y.9`% „Da”) în comparație cu orașele (`r cit.n.9`% „Nu” față de `r cit.y.9`% „Da”) și municipiile (`r mun.n.9`% „Nu” față de `r mun.y.9`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I9) și \@ref(fig:Bar-Range-I9)).
+
+```{r Moz-Range-I10, fig.align='center', fig.cap='Contingency: - Locality rank vs. Wealth and interest statements'}
+  knitr::include_graphics("Article_files/figure-latex/Analysis-10.png")
+```
+```{r Bar-Range-I10, echo = F, warning=F, fig.align='center', fig.cap='Barplot: - Locality rank vs. Wealth and interest statements'}
+  R.I.10.plot
+```
+În ceea ce privește **Declarații de avere și interese** nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.10`)=`r chi.10`, p=`r p.chi.10`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.10`%, Orașe: `r cit.y.10`%, Municipii: `r mun.y.10`%) în favoarea celor negative (Comune: `r vil.n.10`%, Orașe: `r cit.n.10`%, Municipii: `r mun.n.10`%). 
+
+```{r Moz-Range-I11, fig.align='center', fig.cap='Contingency: - Locality rank vs. Council decisions'}
+  knitr::include_graphics("Article_files/figure-latex/Analysis-11.png")
+```
+```{r Bar-Range-I11, echo = F, warning=F, fig.align='center', fig.cap='Barplot: - Locality rank vs. Council decisions'}
+  R.I.11.plot
+```
+În ceea ce privește **Hotărâri de Consiliu** nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.11`)=`r chi.11`, p=`r p.chi.11`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.11`%, Orașe: `r cit.y.11`%, Municipii: `r mun.y.11`%) în favoarea celor negative (Comune: `r vil.n.11`%, Orașe: `r cit.n.11`%, Municipii: `r mun.n.11`%). 
+
+```{r Moz-Range-I12, fig.align='center', fig.cap='Contingency: - Locality rank vs. Public procurement contracts'}
+  knitr::include_graphics("Article_files/figure-latex/Analysis-12.png")
+```
+```{r Bar-Range-I12, echo = F, warning=F, fig.align='center', fig.cap='Barplot: - Locality rank vs. Public procurement contracts'}
+  R.I.12.plot
+```
+
+În privința **Contracte de achiziții publice** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.12`)=`r chi.12`, p=`r p.chi.12`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că actele normative de acest tip nu există mai curând la nivelul **comunelor** (`r vil.n.12`% „Nu” față de `r vil.y.12`% „Da”) în comparație cu orașele (`r cit.n.12`% „Nu” față de `r cit.y.12`% „Da”) și municipiile (`r mun.n.12`% „Nu” față de `r mun.y.12`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I12) și \@ref(fig:Bar-Range-I12)).
+
+```{r Moz-Range-I13, fig.align='center', fig.cap='Contingency: - Locality rank vs. Ads of public interest'}
+  knitr::include_graphics("Article_files/figure-latex/Analysis-13.png")
+```
+```{r Bar-Range-I13, echo = F, warning=F, fig.align='center', fig.cap='Barplot: - Locality rank vs. Ads of public interest'}
+  R.I.13.plot
+```
+În ceea ce privește **Anunțuri de interes public** nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.13`)=`r chi.13`, p=`r p.chi.13`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.13`%, Orașe: `r cit.y.13`%, Municipii: `r mun.y.13`%) în favoarea celor negative (Comune: `r vil.n.13`%, Orașe: `r cit.n.13`%, Municipii: `r mun.n.13`%). 
 
 # Discussion
 
