@@ -57,8 +57,8 @@ footnotelist      : no
 documentclass     : "apa7"
 classoption       : "man"
 output            :
-  pdf_document    : papaja::apa6_pdf
   word_document   : papaja::apa6_docx
+  pdf_document    : papaja::apa6_pdf
 header-includes:
   - \usepackage{ragged2e}
 ---
@@ -240,7 +240,7 @@ Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelo
 ```
 
 ## *f. Programele și strategiile proprii*
-În privința **programele și strategiile proprii** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.6`)=`r chi.6`, p=`r p.chi.6`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că actele normative de acest tip nu există mai curând la nivelul **comunelor** (`r vil.n.6`% „Nu” față de `r vil.y.6`% „Da”) în comparație cu orașele (`r cit.n.6`% „Nu” față de `r cit.y.6`% „Da”) și municipiile (`r mun.n.6`% „Nu” față de `r mun.y.6`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I6) și \@ref(fig:Bar-Range-I6)).
+În privința **programele și strategiile proprii** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.6`)=`r chi.6`, p=`r p.chi.6`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că programele și strategiile proprii nu există mai curând la nivelul **comunelor** (`r vil.n.6`% „Nu” față de `r vil.y.6`% „Da”) în comparație cu orașele (`r cit.n.6`% „Nu” față de `r cit.y.6`% „Da”) și municipiile (`r mun.n.6`% „Nu” față de `r mun.y.6`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I6) și \@ref(fig:Bar-Range-I6)).
 
 ```{r Moz-Range-I7, fig.align='center', fig.cap='Contingency: - Locality rank vs. The list of documents of public interest'}
   knitr::include_graphics("Article_files/figure-latex/Analysis-7.png")
