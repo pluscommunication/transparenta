@@ -1,29 +1,29 @@
 ---
-title             : "The title"
-shorttitle        : "Title"
+title             : "Study on the degree of transparency of the local public administration in Romania in a pandemic context"
+shorttitle        : "Study on the degree of transparency of the local public administration in Romania in a pandemic context"
 author: 
   - name          : "Mari-Isabella Stan"
     affiliation   : "1"
     corresponding : yes    # Define only one corresponding author
-    address       : "University Alley, No.1"
+    address       : "1"
     email         : "stanisabella@yahoo.com"
     role:         # Contributorship roles (e.g., CRediT, https://casrai.org/credit/)
       - "Conceptualization"
       - "Writing - Original Draft Preparation"
       - "Writing - Review & Editing"
-  - name          : "Ernst-August Doelle"
+  - name          : "Cristian Opariuc-Dan"
     affiliation   : "1"
     role:
       - "Writing - Review & Editing"
       - "Supervision"
-  - name          : "Ernst-August Doelle"
+  - name          : "Tănase Tasențe"
     affiliation   : "1"
     role:
       - "Writing - Review & Editing"
       - "Supervision"
 affiliation:
   - id            : "1"
-    institution   : "Ovidius University of Constanța, România"
+    institution   : "Ovidius University of Constanța, Romania, Faculty of Law and Administrative Sciences"
 authornote: |
   Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
   Enter author note here.
