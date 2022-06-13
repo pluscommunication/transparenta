@@ -27,3 +27,5 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 transparenta.Rproj
+Article.tex
+Article.docx
