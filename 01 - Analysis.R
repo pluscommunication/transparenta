@@ -9,7 +9,7 @@ library(memisc)
 load("Date.RData"); names(ds)
 
 # Analyzing Region ####
-## Item 1 - Actele normative care reglementează organizarea și funcționarea autorității sau instituției publice
+## Item 1 - Actele normative care reglementează organizarea și funcționarea autorității sau instituției publice####
 chi.R.I1 <- chisq.test(ds$i1, ds$rang); chi.R.I1
 mosaicplot(chi.R.I1$observed, shade = TRUE,
            main = "Contingency: - Locality rank vs. Normative documents",
@@ -19,7 +19,7 @@ R.I.1.plot <- ggplot(data = ds, mapping = aes(x = rang, fill = i1)) +
   geom_bar(position = "dodge") + xlab("Locality rank") + 
   ylab("Frequency") + scale_fill_discrete(name = "Normative \ndocuments"); R.I.1.plot
 
-## Item 2 - Structura organizatorică, atribuțiile departamentelor, programul de funcționare, programul de audiențe al autorității sau instituției publice
+## Item 2 - Structura organizatorică, atribuțiile departamentelor, programul de funcționare, programul de audiențe al autorității sau instituției publice####
 chi.R.I2 <- chisq.test(ds$i2, ds$rang); chi.R.I2
 mosaicplot(chi.R.I2$observed, shade = TRUE,
            main = "Contingency: - Locality rank vs. Oganizatoric strucure",
@@ -29,7 +29,7 @@ R.I.2.plot <- ggplot(data = ds, mapping = aes(x = rang, fill = i2)) +
   geom_bar(position = "dodge") + xlab("Locality rank") + 
   ylab("Frequency") + scale_fill_discrete(name = "Oganizatoric \nstructure"); R.I.2.plot
 
-## Item 3 - Numele și prenumele persoanelor din conducerea autorității sau a instituției publice și ale funcționarului responsabil cu difuzarea informațiilor publice
+## Item 3 - Numele și prenumele persoanelor din conducerea autorității sau a instituției publice și ale funcționarului responsabil cu difuzarea informațiilor publice####
 chi.R.I3 <- chisq.test(ds$i3, ds$rang); chi.R.I3
 mosaicplot(chi.R.I3$observed, shade = TRUE,
            main = "Contingency: - Locality rank vs. Management",
@@ -39,7 +39,7 @@ R.I.3.plot <- ggplot(data = ds, mapping = aes(x = rang, fill = i3)) +
   geom_bar(position = "dodge") + xlab("Locality rank") + 
   ylab("Frequency") + scale_fill_discrete(name = "Management"); R.I.3.plot
 
-## Item 4 - Coordonatele de contact ale autorității sau instituției publice, respectiv: denumirea, sediul, numerele de telefon, fax, adresa de e-mail și adresa paginii de Internet
+## Item 4 - Coordonatele de contact ale autorității sau instituției publice, respectiv: denumirea, sediul, numerele de telefon, fax, adresa de e-mail și adresa paginii de Internet####
 chi.R.I4 <- chisq.test(ds$i4, ds$rang); chi.R.I4
 mosaicplot(chi.R.I4$observed, shade = TRUE,
            main = "Contingency: - Locality rank vs. Contact information",
@@ -49,7 +49,7 @@ R.I.4.plot <- ggplot(data = ds, mapping = aes(x = rang, fill = i4)) +
   geom_bar(position = "dodge") + xlab("Locality rank") + 
   ylab("Frequency") + scale_fill_discrete(name = "Contact \ninformation"); R.I.4.plot
 
-## Item 5 - Sursele financiare, bugetul și bilanțul contabil
+## Item 5 - Sursele financiare, bugetul și bilanțul contabil####
 chi.R.I5 <- chisq.test(ds$i5, ds$rang); chi.R.I5
 mosaicplot(chi.R.I5$observed, shade = TRUE,
            main = "Contingency: - Locality rank vs. Financial information",
@@ -59,7 +59,7 @@ R.I.5.plot <- ggplot(data = ds, mapping = aes(x = rang, fill = i5)) +
   geom_bar(position = "dodge") + xlab("Locality rank") + 
   ylab("Frequency") + scale_fill_discrete(name = "Financial \ninformation"); R.I.5.plot
 
-## Item 6 - Programele și strategiile proprii
+## Item 6 - Programele și strategiile proprii####
 chi.R.I6 <- chisq.test(ds$i6, ds$rang); chi.R.I6
 mosaicplot(chi.R.I6$observed, shade = TRUE,
            main = "Contingency: - Locality rank vs. Programs and strategies",
@@ -69,7 +69,7 @@ R.I.6.plot <- ggplot(data = ds, mapping = aes(x = rang, fill = i6)) +
   geom_bar(position = "dodge") + xlab("Locality rank") + 
   ylab("Frequency") + scale_fill_discrete(name = "Programs and \nstrategies"); R.I.6.plot
 
-## Item 7 - Lista cuprinzând documentele de interes public
+## Item 7 - Lista cuprinzând documentele de interes public####
 chi.R.I7 <- chisq.test(ds$i7, ds$rang); chi.R.I7
 mosaicplot(chi.R.I7$observed, shade = TRUE,
            main = "Contingency: - Locality rank vs. Public documents list",
@@ -79,7 +79,7 @@ R.I.7.plot <- ggplot(data = ds, mapping = aes(x = rang, fill = i7)) +
   geom_bar(position = "dodge") + xlab("Locality rank") + 
   ylab("Frequency") + scale_fill_discrete(name = "Public \ndocuments list"); R.I.7.plot
 
-## Item 8 - Lista cuprinzând categoriile de documente produse și/sau gestionate, potrivit legii
+## Item 8 - Lista cuprinzând categoriile de documente produse și/sau gestionate, potrivit legii####
 chi.R.I8 <- chisq.test(ds$i8, ds$rang); chi.R.I8
 mosaicplot(chi.R.I8$observed, shade = TRUE,
            main = "Contingency: - Locality rank vs. Legal documents list",
@@ -89,7 +89,7 @@ R.I.8.plot <- ggplot(data = ds, mapping = aes(x = rang, fill = i8)) +
   geom_bar(position = "dodge") + xlab("Locality rank") + 
   ylab("Frequency") + scale_fill_discrete(name = "Legal \ndocuments list"); R.I.8.plot
 
-## Item 9 - Modalitățile de contestare a deciziei autorității sau a instituției publice în situația în care persoana se considera vătămată în privința dreptului de acces la informațiile de interes public solicitate
+## Item 9 - Modalitățile de contestare a deciziei autorității sau a instituției publice în situația în care persoana se considera vătămată în privința dreptului de acces la informațiile de interes public solicitate####
 chi.R.I9 <- chisq.test(ds$i9, ds$rang); chi.R.I9
 mosaicplot(chi.R.I9$observed, shade = TRUE,
            main = "Contingency: - Locality rank vs. Ways of contesting",
@@ -99,7 +99,7 @@ R.I.9.plot <- ggplot(data = ds, mapping = aes(x = rang, fill = i9)) +
   geom_bar(position = "dodge") + xlab("Locality rank") + 
   ylab("Frequency") + scale_fill_discrete(name = "Ways of \ncontesting"); R.I.9.plot
 
-## Item 10 - Declarații de avere și interese
+## Item 10 - Declarații de avere și interese####
 chi.R.I10 <- chisq.test(ds$i10, ds$rang); chi.R.I10
 mosaicplot(chi.R.I10$observed, shade = TRUE,
            main = "Contingency: - Locality rank vs. Wealth statements",
@@ -109,7 +109,7 @@ R.I.10.plot <- ggplot(data = ds, mapping = aes(x = rang, fill = i10)) +
   geom_bar(position = "dodge") + xlab("Locality rank") + 
   ylab("Frequency") + scale_fill_discrete(name = "Wealth \nstatements"); R.I.10.plot
 
-## Item 11 - Hotărâri de Consiliu
+## Item 11 - Hotărâri de Consiliu####
 chi.R.I11 <- chisq.test(ds$i11, ds$rang); chi.R.I11
 mosaicplot(chi.R.I11$observed, shade = TRUE,
            main = "Contingency: - Locality rank vs. Council decisions",
@@ -119,7 +119,7 @@ R.I.11.plot <- ggplot(data = ds, mapping = aes(x = rang, fill = i11)) +
   geom_bar(position = "dodge") + xlab("Locality rank") + 
   ylab("Frequency") + scale_fill_discrete(name = "Council \ndecisions"); R.I.11.plot
 
-## Item 12 - Contracte de achiziții publice
+## Item 12 - Contracte de achiziții publice####
 chi.R.I12 <- chisq.test(ds$i12, ds$rang); chi.R.I12
 mosaicplot(chi.R.I12$observed, shade = TRUE,
            main = "Contingency: - Locality rank vs. Public procurement",
@@ -129,7 +129,7 @@ R.I.12.plot <- ggplot(data = ds, mapping = aes(x = rang, fill = i12)) +
   geom_bar(position = "dodge") + xlab("Locality rank") + 
   ylab("Frequency") + scale_fill_discrete(name = "Public \nprocurement"); R.I.12.plot
 
-## Item 13 - Anunțuri de interes public
+## Item 13 - Anunțuri de interes public####
 chi.R.I13 <- chisq.test(ds$i13, ds$rang); chi.R.I13
 mosaicplot(chi.R.I13$observed, shade = TRUE,
            main = "Contingency: - Locality rank vs. Ads of public interest",
@@ -141,9 +141,42 @@ R.I.13.plot <- ggplot(data = ds, mapping = aes(x = rang, fill = i13)) +
 
 
 # Analyzing Region ####
-## Item 1 - Actele normative care reglementează organizarea și funcționarea autorității sau instituției publice
+## Item 1 - Actele normative care reglementează organizarea și funcționarea autorității sau instituției publice####
+chi.RE.I1 <- chisq.test(ds$i1, ds$regiune); chi.RE.I1
+mosaicplot(chi.RE.I1$observed, shade = TRUE,
+           main = "Contingency: - Region vs. Normative documents",
+           xlab = "Normative documents", ylab = "Region")
+RE.I.1.prop <- round(prop.table(chi.RE.I1$observed) * 100, 2); RE.I.1.prop
+RE.I.1.plot <- ggplot(data = ds, mapping = aes(x = regiune, fill = i1)) + 
+  geom_bar(position = "dodge") + xlab("Region") + 
+  ylab("Frequency") + scale_fill_discrete(name = "Normative \ndocuments"); RE.I.1.plot
 
+## Item 2 - Structura organizatorică, atribuțiile departamentelor, programul de funcționare, programul de audiențe al autorității sau instituției publice####
+chi.RE.I2 <- chisq.test(ds$i2, ds$regiune); chi.RE.I2
+mosaicplot(chi.RE.I2$observed, shade = TRUE,
+           main = "Contingency: - Region vs. Oganizatoric strucure",
+           xlab = "Oganizatoric strucure", ylab = "Region")
+RE.I.2.prop <- round(prop.table(chi.RE.I2$observed) * 100, 2); RE.I.2.prop
+RE.I.2.plot <- ggplot(data = ds, mapping = aes(x = regiune, fill = i2)) + 
+  geom_bar(position = "dodge") + xlab("Region") + 
+  ylab("Frequency") + scale_fill_discrete(name = "Oganizatoric strucure"); RE.I.2.plot
 
+## Item 3 - Numele și prenumele persoanelor din conducerea autorității sau a instituției publice și ale funcționarului responsabil cu difuzarea informațiilor publice####
+chi.RE.I3 <- chisq.test(ds$i3, ds$regiune); chi.RE.I3
+mosaicplot(chi.RE.I3$observed, shade = TRUE,
+           main = "Contingency: - Region vs. Management",
+           xlab = "Management", ylab = "Region")
+RE.I.3.prop <- round(prop.table(chi.RE.I3$observed) * 100, 2); RE.I.3.prop
+RE.I.3.plot <- ggplot(data = ds, mapping = aes(x = regiune, fill = i3)) + 
+  geom_bar(position = "dodge") + xlab("Region") + 
+  ylab("Frequency") + scale_fill_discrete(name = "Management"); RE.I.3.plot
 
-
-
+## Item 4 - Coordonatele de contact ale autorității sau instituției publice, respectiv: denumirea, sediul, numerele de telefon, fax, adresa de e-mail și adresa paginii de Internet####
+chi.RE.I4 <- chisq.test(ds$i4, ds$regiune); chi.RE.I4
+mosaicplot(chi.RE.I4$observed, shade = TRUE,
+           main = "Contingency: - Region vs. Contact information",
+           xlab = "Contact \ninformation", ylab = "Region")
+RE.I.4.prop <- round(prop.table(chi.RE.I4$observed) * 100, 2); RE.I.4.prop
+RE.I.4.plot <- ggplot(data = ds, mapping = aes(x = regiune, fill = i4)) + 
+  geom_bar(position = "dodge") + xlab("Region") + 
+  ylab("Frequency") + scale_fill_discrete(name = "Contact \ninformation"); RE.I.4.plot

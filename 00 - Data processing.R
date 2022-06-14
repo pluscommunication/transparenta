@@ -9,7 +9,7 @@ colnames(ds) <- c("regiune", "judet", "localitatea", "rang",
                   paste("i", 1:13, sep = "")); head(ds)
 
 # Recoding factor
-ds$rang <- factor(ds$rang, labels = c("Municipiu", "Oras", "Comuna"))
+ds$rang <- factor(ds$rang, labels = c("Municipality", "City", "Village"))
 
 # Saving data
 save(ds, file = "Date.RData")
