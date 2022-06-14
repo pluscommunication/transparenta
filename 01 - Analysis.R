@@ -2,8 +2,7 @@
 if(!require(ggplot2)) install.packages("ggplot2")
 if(!require(memisc)) install.packages("memisc")
 
-library(ggplot2)
-library(memisc)
+library(ggplot2); library(memisc)
 
 # Loading dataset ####
 load("Date.RData"); names(ds)

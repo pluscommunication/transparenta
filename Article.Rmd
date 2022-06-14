@@ -82,7 +82,6 @@ Privind fenomenul dintr-o alta perspectiva, @chenExplainingGovernmentOnline2019 
 However, according to @raduImpactTransparencyCitizen2019, this concept of transparency was obviously distorted and manipulative during the communist period in Romania, in the sense that "the decision making process was neither desired nor encouraged, and the decisions were made internally by the communist elite and then communicated on the public agenda". Even so, the party's propaganda states that these decisions are representative of the views of the working class, so for the benefit of society, and the contrary views were discouraged and punished.
 
 
-
 # Methods
 \justify
 We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study. <!-- 21-word solution (Simmons, Nelson & Simonsohn, 2012; retrieved from http://ssrn.com/abstract=2160588) -->
