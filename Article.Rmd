@@ -40,6 +40,7 @@ abstract: |
   One or two sentences to put the results into a more **general context**.
   Two or three sentences to provide a **broader perspective**, readily comprehensible to a scientist in any discipline.
   <!-- https://tinyurl.com/ybremelq -->
+<<<<<<< HEAD
 keywords: keywords
 wordcount: X
 bibliography:
@@ -59,6 +60,25 @@ affiliation:
   institution: Ovidius University of Constanța, Romania, Faculty of Law and Administrative
     Sciences
 header-includes: \usepackage{ragged2e}
+=======
+keywords          : "keywords"
+wordcount         : "X"
+bibliography      : ["r-references.bib", "transparenta.bib"]
+floatsintext      : no
+linenumbers       : yes
+draft             : no
+mask              : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+documentclass     : "apa7"
+classoption       : "man"
+output            :
+  pdf_document    : papaja::apa6_pdf
+  word_document   : papaja::apa6_docx
+header-includes:
+  - \usepackage{ragged2e}
+>>>>>>> 4692a633b019bf9185f1cc291654493a2af19fcb
 ---
 
 ```{r setup, include = FALSE}
@@ -78,7 +98,6 @@ Decision-making transparency in public administration has become an increasingly
 Privind fenomenul dintr-o alta perspectiva, @chenExplainingGovernmentOnline2019 afirma ca o guvernare mai transparenta este direct proportionala cu reducerea coruptiei si contribuie la cresterea increderii cetatenilor in institutiile publice. Astfel, transparenta administrativa a devenit parte integranta din strategiile de guvernare deschisa, care includ nu doar informatiile de interes public de pe website-urile proprii, cum ar fi: procedurile administrative, hotararile de consiliu local, deciziile administrative, programe si strategii, bugete, declaratiile de avere si de interese, contractele de achizitii etc., ci si diseminarea acestora in social media.
 
 However, according to @raduImpactTransparencyCitizen2019, this concept of transparency was obviously distorted and manipulative during the communist period in Romania, in the sense that "the decision making process was neither desired nor encouraged, and the decisions were made internally by the communist elite and then communicated on the public agenda". Even so, the party's propaganda states that these decisions are representative of the views of the working class, so for the benefit of society, and the contrary views were discouraged and punished.
-
 
 
 # Methods
@@ -238,7 +257,7 @@ Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelo
 ```
 
 ## *f. Programele și strategiile proprii*
-În privința **programele și strategiile proprii** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.6`)=`r chi.6`, p=`r p.chi.6`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că programele și strategiile proprii nu există mai curând la nivelul **comunelor** (`r vil.n.6`% „Nu” față de `r vil.y.6`% „Da”) în comparație cu orașele (`r cit.n.6`% „Nu” față de `r cit.y.6`% „Da”) și municipiile (`r mun.n.6`% „Nu” față de `r mun.y.6`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I6) și \@ref(fig:Bar-Range-I6)).
+În privința **programele și strategiile proprii** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.6`)=`r chi.6`, p=`r p.chi.6`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că actele normative de acest tip nu există mai curând la nivelul **comunelor** (`r vil.n.6`% „Nu” față de `r vil.y.6`% „Da”) în comparație cu orașele (`r cit.n.6`% „Nu” față de `r cit.y.6`% „Da”) și municipiile (`r mun.n.6`% „Nu” față de `r mun.y.6`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I6) și \@ref(fig:Bar-Range-I6)).
 
 ```{r Moz-Range-I7, fig.align='center', fig.cap='Contingency: - Locality rank vs. The list of documents of public interest'}
   knitr::include_graphics("Article_files/figure-latex/Analysis-7.png")
