@@ -179,3 +179,94 @@ RE.I.4.prop <- round(prop.table(chi.RE.I4$observed) * 100, 2); RE.I.4.prop
 RE.I.4.plot <- ggplot(data = ds, mapping = aes(x = regiune, fill = i4)) + 
   geom_bar(position = "dodge") + xlab("Region") + 
   ylab("Frequency") + scale_fill_discrete(name = "Contact \ninformation"); RE.I.4.plot
+
+
+## Item 5 - Sursele financiare, bugetul și bilanțul contabil####
+chi.RE.I5 <- chisq.test(ds$i5, ds$regiune); chi.RE.I5
+mosaicplot(chi.RE.I5$observed, shade = TRUE,
+           main = "Contingency: - Region vs. Financial information",
+           xlab = "Financial information", ylab = "Region")
+RE.I.5.prop <- round(prop.table(chi.RE.I5$observed) * 100, 2); RE.I.5.prop
+RE.I.5.plot <- ggplot(data = ds, mapping = aes(x = regiune, fill = i5)) + 
+  geom_bar(position = "dodge") + xlab("Region") + 
+  ylab("Frequency") + scale_fill_discrete(name = "Financial information"); RE.I.5.plot
+
+## Item 6 - Programele și strategiile proprii####
+chi.RE.I6 <- chisq.test(ds$i6, ds$regiune); chi.RE.I6
+mosaicplot(chi.RE.I6$observed, shade = TRUE,
+           main = "Contingency: - Region vs. Programs and strategies",
+           xlab = "Programs and \nstrategies", ylab = "Region")
+RE.I.6.prop <- round(prop.table(chi.RE.I6$observed) * 100, 2); RE.I.6.prop
+RE.I.6.plot <- ggplot(data = ds, mapping = aes(x = regiune, fill = i6)) + 
+  geom_bar(position = "dodge") + xlab("Region") + 
+  ylab("Frequency") + scale_fill_discrete(name = "Programs and \nstrategies"); RE.I.6.plot
+
+## Item 7 - Lista cuprinzând documentele de interes public####
+chi.RE.I7 <- chisq.test(ds$i7, ds$regiune); chi.RE.I7
+mosaicplot(chi.RE.I7$observed, shade = TRUE,
+           main = "Contingency: - Region vs. Public documents list",
+           xlab = "Public documents list", ylab = "Region")
+RE.I.7.prop <- round(prop.table(chi.RE.I7$observed) * 100, 2); RE.I.7.prop
+RE.I.7.plot <- ggplot(data = ds, mapping = aes(x = regiune, fill = i7)) + 
+  geom_bar(position = "dodge") + xlab("Region") + 
+  ylab("Frequency") + scale_fill_discrete(name = "Public \ndocuments list"); RE.I.7.plot
+
+## Item 8 - Lista cuprinzând categoriile de documente produse și/sau gestionate, potrivit legii####
+chi.RE.I8 <- chisq.test(ds$i8, ds$regiune); chi.RE.I8
+mosaicplot(chi.RE.I8$observed, shade = TRUE,
+           main = "Contingency: - Region vs. Legal documents list",
+           xlab = "Legal documents list", ylab = "Region")
+RE.I.8.prop <- round(prop.table(chi.RE.I8$observed) * 100, 2); RE.I.8.prop
+RE.I.8.plot <- ggplot(data = ds, mapping = aes(x = regiune, fill = i8)) + 
+  geom_bar(position = "dodge") + xlab("Region") + 
+  ylab("Frequency") + scale_fill_discrete(name = "Legal \ndocuments list"); RE.I.8.plot
+
+## Item 9 - Modalitățile de contestare a deciziei autorității sau a instituției publice în situația în care persoana se considera vătămată în privința dreptului de acces la informațiile de interes public solicitate####
+chi.RE.I9 <- chisq.test(ds$i9, ds$regiune); chi.RE.I9
+mosaicplot(chi.RE.I9$observed, shade = TRUE,
+           main = "Contingency: - Region vs. Ways of contesting",
+           xlab = "Ways of contesting", ylab = "Region")
+RE.I.9.prop <- round(prop.table(chi.RE.I9$observed) * 100, 2); RE.I.9.prop
+RE.I.9.plot <- ggplot(data = ds, mapping = aes(x = regiune, fill = i9)) + 
+  geom_bar(position = "dodge") + xlab("Region") + 
+  ylab("Frequency") + scale_fill_discrete(name = "Ways of \ncontesting"); RE.I.9.plot
+
+## Item 10 - Declarații de avere și interese####
+chi.RE.I10 <- chisq.test(ds$i10, ds$regiune); chi.RE.I10
+mosaicplot(chi.RE.I10$observed, shade = TRUE,
+           main = "Contingency: - Region vs. Wealth statements",
+           xlab = "Wealth statements", ylab = "Region")
+RE.I.10.prop <- round(prop.table(chi.RE.I10$observed) * 100, 2); RE.I.10.prop
+RE.I.10.plot <- ggplot(data = ds, mapping = aes(x = regiune, fill = i10)) + 
+  geom_bar(position = "dodge") + xlab("Region") + 
+  ylab("Frequency") + scale_fill_discrete(name = "Wealth \nstatements"); RE.I.10.plot
+
+## Item 11 - Hotărâri de Consiliu####
+chi.RE.I11 <- chisq.test(ds$i11, ds$regiune); chi.RE.I11
+mosaicplot(chi.RE.I11$observed, shade = TRUE,
+           main = "Contingency: - Region vs. Council decisions",
+           xlab = "Council decisions", ylab = "Region")
+RE.I.11.prop <- round(prop.table(chi.RE.I11$observed) * 110, 2); RE.I.11.prop
+RE.I.11.plot <- ggplot(data = ds, mapping = aes(x = regiune, fill = i11)) + 
+  geom_bar(position = "dodge") + xlab("Region") + 
+  ylab("Frequency") + scale_fill_discrete(name = "Council \ndecisions"); RE.I.11.plot
+
+## Item 12 - Contracte de achiziții publice####
+chi.RE.I12 <- chisq.test(ds$i12, ds$regiune); chi.RE.I12
+mosaicplot(chi.RE.I12$observed, shade = TRUE,
+           main = "Contingency: - Region vs. Public procurement",
+           xlab = "Public procurement", ylab = "Region")
+RE.I.12.prop <- round(prop.table(chi.RE.I12$observed) * 120, 2); RE.I.12.prop
+RE.I.12.plot <- ggplot(data = ds, mapping = aes(x = regiune, fill = i12)) + 
+  geom_bar(position = "dodge") + xlab("Region") + 
+  ylab("Frequency") + scale_fill_discrete(name = "Public \nprocurement"); RE.I.12.plot
+
+## Item 13 - Anunțuri de interes public####
+chi.RE.I13 <- chisq.test(ds$i13, ds$regiune); chi.RE.I13
+mosaicplot(chi.RE.I13$observed, shade = TRUE,
+           main = "Contingency: - Region vs. Ads of public interest",
+           xlab = "Ads of public interest", ylab = "Region")
+RE.I.13.prop <- round(prop.table(chi.RE.I13$observed) * 130, 2); RE.I.13.prop
+RE.I.13.plot <- ggplot(data = ds, mapping = aes(x = regiune, fill = i13)) + 
+  geom_bar(position = "dodge") + xlab("Region") + 
+  ylab("Frequency") + scale_fill_discrete(name = "Ads of \npublic interest"); RE.I.13.plot
