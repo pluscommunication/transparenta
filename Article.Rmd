@@ -329,6 +329,8 @@ Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelo
 ## *m. Anunțuri de interes public*
 În ceea ce privește **Anunțuri de interes public** nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.13`)=`r chi.13`, p=`r p.chi.13`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.13`%, Orașe: `r cit.y.13`%, Municipii: `r mun.y.13`%) în favoarea celor negative (Comune: `r vil.n.13`%, Orașe: `r cit.n.13`%, Municipii: `r mun.n.13`%) (vezi figurile \@ref(fig:Moz-Range-I13) și \@ref(fig:Bar-Range-I13)). 
 
+# Analiza contingenței în funcție de regiunea de dezvoltare a României 
+
 # Discussion
 
 
