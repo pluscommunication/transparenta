@@ -82,10 +82,21 @@ output            : papaja::apa6_pdf
 
 # Introduction
 
+The imperative of maintaining transparency in public administration is an evergreen discourse in the realm of democratic governance. The relationship between citizens and public authorities pivots around the principle of open access to information of public interest, a critical facet of healthy democratic processes. This principle accentuates the need for an administration to operate with transparency, allowing the public to scrutinize its actions, thereby fostering trust and facilitating effective communication [@androniceanuTransparencyPublicAdministration2021b].
+
+@drorTransparencyOpennessQuality1999 posits that the quality of a democracy can be gauged by the extent of transparency and openness that characterizes its public administration. This not only promotes fairness and legitimacy but also strengthens democratic accountability. On the same lines, @pozenSeeingTransparencyMore2020 states that achieving complete transparency is a complex endeavor, yet its importance in enabling citizens to view the operations and policies of their government more clearly cannot be understated.
+
+The emergence of digitalization has profoundly influenced the functioning of public administration, especially in terms of transparency. As @slabuTransparencyDigitalizationPublic2021 points out, digitalization in the public administration of Romania has significantly enhanced the accessibility and availability of public information, thereby ameliorating transparency. This perspective aligns with @mynenkoImpactDigitalizationTransparency2022 study, which asserts that digitalization can profoundly impact the transparency of public authorities, enabling more efficient and accessible services.
+
+While transparency stands at the core of public trust, its conceptualization and application in public administration are still debatable and require extensive study [@erkkilaTransparencyPublicAdministration2020]. 
+
+Transparency in Romania's public administration is guided by Law No. 544 of 2001 [@LEGE54412] and Law No. 52 of 2003 [@LEGE5221]. The first one establishes the principle of free access to public interest information, mandating public authorities and institutions to proactively disclose or provide requested information, thereby enhancing accountability and public participation. The second one is aimed at boosting the responsibility of public administration towards its citizens, who are beneficiaries of administrative decisions. Together, these laws create an accountable and participatory public administration, advancing democratic governance and promoting public trust in Romania.
+
+In this context, the purpose of this research, therefore, is to delve into the degree of transparency in Romanian local public administration, focusing on the pivotal role of access to public interest information. It aims to assess the current level of transparency and *to explore ways of further enhancing* it in alignment with the evolving societal expectations and digital advancements.
+
 # Literature review
 
 # Methods
-\justify
 We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study. <!-- 21-word solution (Simmons, Nelson & Simonsohn, 2012; retrieved from http://ssrn.com/abstract=2160588) -->
 
 ## Participants
