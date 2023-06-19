@@ -81,12 +81,8 @@ output            : papaja::apa6_pdf
 ```
 
 # Introduction
-Decision-making transparency in public administration has become an increasingly important concept in the current context, as it is visible that politicians are distancing themselves from citizens when it comes to making decisions for the benefit of the community. Thus, both transparency of government and free access to public information are very important items on the public agenda as citizens' trust in public institutions has declined. (@raduImpactTransparencyCitizen2019).
 
-Privind fenomenul dintr-o alta perspectiva, @chenExplainingGovernmentOnline2019 afirma ca o guvernare mai transparenta este direct proportionala cu reducerea coruptiei si contribuie la cresterea increderii cetatenilor in institutiile publice. Astfel, transparenta administrativa a devenit parte integranta din strategiile de guvernare deschisa, care includ nu doar informatiile de interes public de pe website-urile proprii, cum ar fi: procedurile administrative, hotararile de consiliu local, deciziile administrative, programe si strategii, bugete, declaratiile de avere si de interese, contractele de achizitii etc., ci si diseminarea acestora in social media.
-
-However, according to @raduImpactTransparencyCitizen2019, this concept of transparency was obviously distorted and manipulative during the communist period in Romania, in the sense that "the decision making process was neither desired nor encouraged, and the decisions were made internally by the communist elite and then communicated on the public agenda". Even so, the party's propaganda states that these decisions are representative of the views of the working class, so for the benefit of society, and the contrary views were discouraged and punished.
-
+# Literature review
 
 # Methods
 \justify
