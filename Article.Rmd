@@ -1,88 +1,76 @@
 ---
-title: Study on the degree of transparency of the local public administration in Romania
-  in a pandemic context
-author:
-- name: Mari-Isabella Stan
-  affiliation: '1'
-  corresponding: yes
-  address: '1'
-  email: stanisabella@yahoo.com
-  role:
-  - Conceptualization
-  - Writing - Original Draft Preparation
-  - Writing - Review & Editing
-- name: Cristian Opariuc-Dan
-  affiliation: '1'
-  role:
-  - Writing - Review & Editing
-  - Supervision
-- name: Tănase Tasențe
-  affiliation: '1'
-  role:
-  - Writing - Review & Editing
-  - Supervision
-shorttitle: Study on the degree of transparency of the local public administration
-  in Romania in a pandemic context
-output:
-  html_document:
-    df_print: paged
-  pdf_document: papaja::apa6_pdf
-  word_document: papaja::apa6_docx
+title             : "Study on the degree of transparency of the local public administration in Romania in a pandemic context"
+shorttitle        : "Study on the degree of transparency of the local public administration in Romania in a pandemic context"
+
+author: 
+  - name          : "Mari-Isabella Stan"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "Postal address"
+    email         : "stanisabella@yahoo.com"
+    role:         # Contributorship roles (e.g., CRediT, https://casrai.org/credit/)
+      - "Conceptualization"
+      - "Writing - Original Draft Preparation"
+      - "Writing - Review & Editing"
+  - name          : "Cristian Opariuc-Dan"
+    affiliation   : "1"
+    role:
+      - "Writing - Review & Editing"
+      - "Supervision"
+      
+  - name          : "Tănase Tasențe"
+    affiliation   : "1"
+    role:
+      - "Writing - Review & Editing"
+      - "Supervision"
+
+affiliation:
+  - id            : "1"
+    institution   : "Ovidius University of Constanța, Romania, Faculty of Law and Administrative"
+
+
 authornote: |
   Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
+
   Enter author note here.
+
 abstract: |
   One or two sentences providing a **basic introduction** to the field,  comprehensible to a scientist in any discipline.
+  
   Two to three sentences of **more detailed background**, comprehensible  to scientists in related disciplines.
+  
   One sentence clearly stating the **general problem** being addressed by  this particular study.
+  
   One sentence summarizing the main result (with the words "**here we show**" or their equivalent).
+  
   Two or three sentences explaining what the **main result** reveals in direct comparison to what was thought to be the case previously, or how the  main result adds to previous knowledge.
+  
   One or two sentences to put the results into a more **general context**.
+  
   Two or three sentences to provide a **broader perspective**, readily comprehensible to a scientist in any discipline.
+  
   <!-- https://tinyurl.com/ybremelq -->
-<<<<<<< HEAD
-keywords: keywords
-wordcount: X
-bibliography:
-- r-references.bib
-- transparenta.bib
-floatsintext: no
-linenumbers: yes
-draft: no
-mask: no
-figurelist: no
-tablelist: no
-footnotelist: no
-documentclass: apa7
-classoption: man
-affiliation:
-- id: '1'
-  institution: Ovidius University of Constanța, Romania, Faculty of Law and Administrative
-    Sciences
-header-includes: \usepackage{ragged2e}
-=======
+  
 keywords          : "keywords"
 wordcount         : "X"
-bibliography      : ["r-references.bib", "transparenta.bib"]
+
+bibliography      : "r-references.bib"
+
 floatsintext      : no
 linenumbers       : yes
 draft             : no
 mask              : no
+
 figurelist        : no
 tablelist         : no
 footnotelist      : no
-documentclass     : "apa7"
+
 classoption       : "man"
-output            :
-  pdf_document    : papaja::apa6_pdf
-  word_document   : papaja::apa6_docx
-header-includes:
-  - \usepackage{ragged2e}
->>>>>>> 4692a633b019bf9185f1cc291654493a2af19fcb
+output            : papaja::apa6_pdf
 ---
 
 ```{r setup, include = FALSE}
-  library(papaja); library(knitr); library(kableExtra)
+  library(papaja); library(knitr); library(kableExtra); library(png)
   r_refs("r-references.bib")
 ```
 
@@ -118,7 +106,7 @@ We used `r cite_r("r-references.bib")` for all our analyses.
 ```{r Analysis, echo=F, include=F}
   source("01 - Analysis.R")
 ```
-# Analiza contingenței în funcție de rangul localității 
+# Contingency analysis based on the rank of the locality
 ```{r Range, echo=F}
   # Item 1
   chi.1 <- round(chi.R.I1$statistic, 2);  df.chi.1 <- chi.R.I1$parameter; p.chi.1 <- chi.R.I1$p.value
@@ -205,7 +193,9 @@ We used `r cite_r("r-references.bib")` for all our analyses.
 ```{r Bar-Range-I1, echo = F, warning=F, fig.align='center', fig.cap='Barplot: - Locality rank vs. Normative documents'}
   R.I.1.plot
 ```
-## *a. Actele normative care reglementează organizarea și funcționarea autorității sau instituției publice*
+## *a. The normative acts regulating the organization and operation of the public authority or institution*
+In terms of the normative acts regulating the organization and operation of the public authority or institution, statistically significant differences emerge (\(\chi\)^2^(`r df.chi.1`)=`r chi.1`, p=`r p.chi.1`), driven by the rank of the administrative-territorial unit. Indeed, it appears that these types of normative acts are less likely to exist at the level of villages (`r vil.n.1`%  "No" versus `r vil.y.1`% "Yes") compared to towns (`r cit.n.1`% versus `r cit.y.1`% "Yes") and municipalities (`r mun.n.1`% "No" versus `r mun.y.1`%  "Yes"), with statistically significant differences only between villages and the other two categories of administrative units (see figures \@ref(fig:Moz-Range-I1) și \@ref(fig:Bar-Range-I1)).
+
 În privința **actelor normative care reglementează organizarea și funcționarea autorității sau instituției publice** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.1`)=`r chi.1`, p=`r p.chi.1`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că actele normative de acest tip nu există mai curând la nivelul **comunelor** (`r vil.n.1`% „Nu” față de `r vil.y.1`% „Da”) în comparație cu orașele (`r cit.n.1`% „Nu” față de `r cit.y.1`% „Da”) și municipiile (`r mun.n.1`% „Nu” față de `r mun.y.1`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I1) și \@ref(fig:Bar-Range-I1)).
 
 ```{r Moz-Range-I2, fig.align='center', fig.cap='Contingency: - Locality rank vs. Organizatoric structure'}
