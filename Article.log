@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.19)  20 JUN 2023 00:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.21)  21 JUN 2023 19:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Article.tex
 (./Article.tex
-LaTeX2e <2023-06-01>
+LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-16>
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/apa6/apa6.cls
 Document Class: apa6 2020/01/13 v2.34 APA formatting (6th edition)
@@ -286,30 +286,14 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-)
-\cslhangindent=\skip75
-\csllabelwidth=\skip76
-\cslentryspacingunit=\skip77
-(c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count287
-\calc@Bcount=\count288
-\calc@Adimen=\dimen181
-\calc@Bdimen=\dimen182
-\calc@Askip=\skip78
-\calc@Bskip=\skip79
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count289
-\calc@Cskip=\skip80
 ) (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2023/05/11 v3.89 The Babel package
-\babel@savecnt=\count290
-\U@D=\dimen183
+\babel@savecnt=\count287
+\U@D=\dimen181
 \l@unhyphenated=\language3
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count291
+\bbl@dirlevel=\count288
 Package babel Info: You haven't specified a language as a class or package
 (babel)             option. I'll load 'nil'. Reported on input line 4262.
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/nil.ldf
@@ -319,7 +303,7 @@ Language: nil 2023/05/11 v3.89 Nil language
 \everypar=\toks26
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
 Package babel Info: Importing data for english
-(babel)             from babel-en.ini. Reported on input line 93.
+(babel)             from babel-en.ini. Reported on input line 70.
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
@@ -328,48 +312,48 @@ LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 ) (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip81
-\LTright=\skip82
-\LTpre=\skip83
-\LTpost=\skip84
-\LTchunksize=\count292
-\LTcapwidth=\dimen184
+\LTleft=\skip75
+\LTright=\skip76
+\LTpre=\skip77
+\LTpost=\skip78
+\LTchunksize=\count289
+\LTcapwidth=\dimen182
 \LT@head=\box55
 \LT@firsthead=\box56
 \LT@foot=\box57
 \LT@lastfoot=\box58
 \LT@gbox=\box59
-\LT@cols=\count293
-\LT@rows=\count294
-\c@LT@tables=\count295
-\c@LT@chunks=\count296
+\LT@cols=\count290
+\LT@rows=\count291
+\c@LT@tables=\count292
+\c@LT@chunks=\count293
 \LT@p@ftn=\toks27
 ) (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 ) (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip85
-\multirow@cntb=\count297
-\multirow@dima=\skip86
-\bigstrutjot=\dimen185
+\multirow@colwidth=\skip79
+\multirow@cntb=\count294
+\multirow@dima=\skip80
+\bigstrutjot=\dimen183
 ) (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen186
+\col@sep=\dimen184
 \ar@mcellbox=\box60
-\extrarowheight=\dimen187
+\extrarowheight=\dimen185
 \NC@list=\toks28
-\extratabsurround=\skip87
-\backup@length=\skip88
+\extratabsurround=\skip81
+\backup@length=\skip82
 \ar@cellbox=\box61
 )
-\TX@col@width=\dimen188
-\TX@old@table=\dimen189
-\TX@old@col=\dimen190
-\TX@target=\dimen191
-\TX@delta=\dimen192
-\TX@cols=\count298
+\TX@col@width=\dimen186
+\TX@old@table=\dimen187
+\TX@old@col=\dimen188
+\TX@target=\dimen189
+\TX@delta=\dimen190
+\TX@cols=\count295
 \TX@ftn=\toks29
 ) (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttablex/threeparttablex.sty
 Package: threeparttablex 2013/07/23 v0.3 by daleif
@@ -378,16 +362,16 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\TPTL@width=\skip89
+\TPTL@width=\skip83
 )
-\longtablewidth=\skip90
+\longtablewidth=\skip84
 Failed to patch abstract.
 Failed to patch title.
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xpatch/xpatch.sty (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-06-16 L3 programming layer (loader) 
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count299
+\l__color_backend_stack_int=\count296
 \l__pdf_internal_box=\box62
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
@@ -402,30 +386,30 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 ) (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
-\linenopenalty=\count300
+\linenopenalty=\count297
 \output=\toks30
-\linenoprevgraf=\count301
-\linenumbersep=\dimen193
-\linenumberwidth=\dimen194
-\c@linenumber=\count302
-\c@pagewiselinenumber=\count303
-\c@LN@truepage=\count304
-\c@internallinenumber=\count305
-\c@internallinenumbers=\count306
-\quotelinenumbersep=\dimen195
-\bframerule=\dimen196
-\bframesep=\dimen197
+\linenoprevgraf=\count298
+\linenumbersep=\dimen191
+\linenumberwidth=\dimen192
+\c@linenumber=\count299
+\c@pagewiselinenumber=\count300
+\c@LN@truepage=\count301
+\c@internallinenumber=\count302
+\c@internallinenumbers=\count303
+\quotelinenumbersep=\dimen193
+\bframerule=\dimen194
+\bframesep=\dimen195
 \bframebox=\box63
-\linenoamsmath@ams@eqpen=\count307
+\linenoamsmath@ams@eqpen=\count304
 LaTeX Info: Redefining \\ on input line 3180.
 ) (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
-\csq@reset=\count308
-\csq@gtype=\count309
-\csq@glevel=\count310
-\csq@qlevel=\count311
-\csq@maxlvl=\count312
-\csq@tshold=\count313
+\csq@reset=\count305
+\csq@gtype=\count306
+\csq@glevel=\count307
+\csq@qlevel=\count308
+\csq@maxlvl=\count309
+\csq@tshold=\count310
 \csq@ltx@everypar=\toks31
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
@@ -434,7 +418,13 @@ Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
-)) (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+)) (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip85
+\bibsep=\skip86
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count311
+) (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-05-16 v7.00y Hypertext links for LaTeX
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
@@ -461,11 +451,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count314
+\c@section@level=\count312
 )
-\@linkdim=\dimen198
-\Hy@linkcounter=\count315
-\Hy@pagecounter=\count316
+\@linkdim=\dimen196
+\Hy@linkcounter=\count313
+\Hy@pagecounter=\count314
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-05-16 v7.00y Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -473,7 +463,7 @@ Now handling font encoding PD1 ...
 ) (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count317
+\Hy@SavedSpaceFactor=\count315
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-05-16 v7.00y Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -487,21 +477,21 @@ Package hyperref Info: Plain pages OFF on input line 4182.
 Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4434.
-\c@Hy@tempcnt=\count318
+\c@Hy@tempcnt=\count316
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4772.
-\XeTeXLinkMargin=\dimen199
+\XeTeXLinkMargin=\dimen197
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count319
-\Field@Width=\dimen256
-\Fld@charsize=\dimen257
+\Fld@menulength=\count317
+\Field@Width=\dimen198
+\Fld@charsize=\dimen199
 Package hyperref Info: Hyper figures OFF on input line 6051.
 Package hyperref Info: Link nesting OFF on input line 6056.
 Package hyperref Info: Hyper index ON on input line 6059.
@@ -513,9 +503,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6081.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count320
-\c@Item=\count321
-\c@Hfootnote=\count322
+\Hy@abspage=\count318
+\c@Item=\count319
+\c@Hfootnote=\count320
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -524,8 +514,8 @@ File: hpdftex.def 2023-05-16 v7.00y Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count323
-\c@bookmark@seq@number=\count324
+\Fld@listcount=\count321
+\c@bookmark@seq@number=\count322
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -533,33 +523,33 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip91
+\Hy@SectionHShift=\skip87
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-No file Article.aux.
+(./Article.aux)
 \openout1 = `Article.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -609,41 +599,42 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 225.
+Package hyperref Info: Link coloring OFF on input line 203.
+(./Article.out) (./Article.out)
 \@outlinefile=\write5
 \openout5 = `Article.out'.
 
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 227.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 205.
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 227.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 205.
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 227.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 205.
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 227.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 205.
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 227.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 205.
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 227.
+(Font)              <12> on input line 205.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 227.
+(Font)              <8> on input line 205.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 227.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 227.
+(Font)              <6> on input line 205.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 205.
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 227.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 205.
 (c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -665,16 +656,495 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
 
 [2]
-! Undefined control sequence.
-l.237 \justify
-               
-Here is how much of TeX's memory you used:
- 15756 strings out of 477683
- 254649 string characters out of 5829085
- 1861749 words of memory out of 5000000
- 35991 multiletter control sequences out of 15000+600000
- 556606 words of font info for 69 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 72i,11n,79p,372b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-!  ==> Fatal error occurred, no output PDF file produced!
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[3]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[4]
+\openout4 = `Article.fff'.
+
+(Article.fff)
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[5{c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+Underfull \vbox (badness 5008) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[6]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[7]
+Underfull \vbox (badness 1226) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[8]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[9]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[10]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 545.
+(c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[11{c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+Underfull \vbox (badness 3977) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[12]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[13] (./Article.bbl
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[14]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[15
+
+]) AED endfloat: Processing end Figures and Tables
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[16] (./Article.fff
+<Article_files/figure-latex/Analysis-1.pdf, id=323, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Analysis-1.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Analysis-1.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Analysis-1.pdf  used on input line 5.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Bar-Range-I1-1.pdf, id=324, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Bar-Range-I1-1.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Bar-Range-I1-1.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I1-1.pdf  used on input line 15.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Analysis-2.pdf, id=325, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Analysis-2.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Analysis-2.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Analysis-2.pdf  used on input line 25.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Bar-Range-I2-1.pdf, id=326, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Bar-Range-I2-1.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Bar-Range-I2-1.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I2-1.pdf  used on input line 35.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Analysis-3.pdf, id=327, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Analysis-3.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Analysis-3.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Analysis-3.pdf  used on input line 45.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Bar-Range-I3-1.pdf, id=328, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Bar-Range-I3-1.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Bar-Range-I3-1.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I3-1.pdf  used on input line 55.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Analysis-4.pdf, id=329, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Analysis-4.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Analysis-4.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Analysis-4.pdf  used on input line 65.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Bar-Range-I4-1.pdf, id=330, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Bar-Range-I4-1.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Bar-Range-I4-1.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I4-1.pdf  used on input line 75.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Analysis-5.pdf, id=331, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Analysis-5.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Analysis-5.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Analysis-5.pdf  used on input line 85.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Bar-Range-I5-1.pdf, id=332, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Bar-Range-I5-1.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Bar-Range-I5-1.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I5-1.pdf  used on input line 95.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Analysis-6.pdf, id=333, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Analysis-6.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Analysis-6.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Analysis-6.pdf  used on input line 105.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Bar-Range-I6-1.pdf, id=334, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Bar-Range-I6-1.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Bar-Range-I6-1.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I6-1.pdf  used on input line 115.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Analysis-7.pdf, id=335, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Analysis-7.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Analysis-7.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Analysis-7.pdf  used on input line 125.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Bar-Range-I7-1.pdf, id=336, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Bar-Range-I7-1.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Bar-Range-I7-1.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I7-1.pdf  used on input line 135.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Analysis-8.pdf, id=337, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Analysis-8.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Analysis-8.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Analysis-8.pdf  used on input line 145.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Bar-Range-I8-1.pdf, id=338, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Bar-Range-I8-1.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Bar-Range-I8-1.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I8-1.pdf  used on input line 155.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Analysis-9.pdf, id=339, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Analysis-9.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Analysis-9.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Analysis-9.pdf  used on input line 165.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Bar-Range-I9-1.pdf, id=340, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Bar-Range-I9-1.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Bar-Range-I9-1.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I9-1.pdf  used on input line 175.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Analysis-10.pdf, id=341, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Analysis-10.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Analysis-10.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Analysis-10.pdf  used on input line 185.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Bar-Range-I10-1.pdf, id=342, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Bar-Range-I10-1.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Bar-Range-I10-1.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I10-1.pdf  used on input line 195.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Analysis-11.pdf, id=343, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Analysis-11.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Analysis-11.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Analysis-11.pdf  used on input line 205.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Bar-Range-I11-1.pdf, id=344, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Bar-Range-I11-1.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Bar-Range-I11-1.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I11-1.pdf  used on input line 215.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Analysis-12.pdf, id=345, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Analysis-12.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Analysis-12.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Analysis-12.pdf  used on input line 225.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Bar-Range-I12-1.pdf, id=346, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Bar-Range-I12-1.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Bar-Range-I12-1.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I12-1.pdf  used on input line 235.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Analysis-13.pdf, id=347, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Analysis-13.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Analysis-13.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Analysis-13.pdf  used on input line 245.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Article_files/figure-latex/Bar-Range-I13-1.pdf, id=348, 469.755pt x 325.215pt>
+File: Article_files/figure-latex/Bar-Range-I13-1.pdf Graphic file (type pdf)
+<use Article_files/figure-latex/Bar-Range-I13-1.pdf>
+Package pdftex.def Info: Article_files/figure-latex/Bar-Range-I13-1.pdf  used on input line 255.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+)
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[17
+
+
+ <./Article_files/figure-latex/Analysis-1.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[18 <./Article_files/figure-latex/Bar-Range-I1-1.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[19 <./Article_files/figure-latex/Analysis-2.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[20 <./Article_files/figure-latex/Bar-Range-I2-1.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[21 <./Article_files/figure-latex/Analysis-3.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[22 <./Article_files/figure-latex/Bar-Range-I3-1.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[23 <./Article_files/figure-latex/Analysis-4.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[24 <./Article_files/figure-latex/Bar-Range-I4-1.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[25 <./Article_files/figure-latex/Analysis-5.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[26 <./Article_files/figure-latex/Bar-Range-I5-1.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[27 <./Article_files/figure-latex/Analysis-6.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[28 <./Article_files/figure-latex/Bar-Range-I6-1.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[29 <./Article_files/figure-latex/Analysis-7.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[30 <./Article_files/figure-latex/Bar-Range-I7-1.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[31 <./Article_files/figure-latex/Analysis-8.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[32 <./Article_files/figure-latex/Bar-Range-I8-1.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[33 <./Article_files/figure-latex/Analysis-9.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[34 <./Article_files/figure-latex/Bar-Range-I9-1.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[35 <./Article_files/figure-latex/Analysis-10.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[36 <./Article_files/figure-latex/Bar-Range-I10-1.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[37 <./Article_files/figure-latex/Analysis-11.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[38 <./Article_files/figure-latex/Bar-Range-I11-1.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[39 <./Article_files/figure-latex/Analysis-12.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[40 <./Article_files/figure-latex/Bar-Range-I12-1.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[41 <./Article_files/figure-latex/Analysis-13.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.91652pt}.
+
+[42 <./Article_files/figure-latex/Bar-Range-I13-1.pdf>] (./Article.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
+Package rerunfilecheck Info: File `Article.out' has not changed.
+(rerunfilecheck)             Checksum: B80F9F2AC07B9CA6404388657D4DF832;8909.
+ ) 
+Here is how much of TeX's memory you used:
+ 16560 strings out of 477683
+ 277472 string characters out of 5829571
+ 1873763 words of memory out of 5000000
+ 36644 multiletter control sequences out of 15000+600000
+ 568514 words of font info for 73 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 72i,11n,79p,1254b,665s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx6.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/offic/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss8.pfb>
+Output written on Article.pdf (42 pages, 314792 bytes).
+PDF statistics:
+ 679 PDF objects out of 1000 (max. 8388607)
+ 558 compressed objects within 6 object streams
+ 136 named destinations out of 1000 (max. 500000)
+ 339 words of extra memory for PDF output out of 10000 (max. 10000000)
+

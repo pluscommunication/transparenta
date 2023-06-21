@@ -7,7 +7,7 @@ library(ggplot2); library(memisc)
 # Loading dataset ####
 load("Date.RData"); names(ds)
 
-# Analyzing Region ####
+# Analyzing Ranks ####
 ## Item 1 - Actele normative care reglementează organizarea și funcționarea autorității sau instituției publice####
 chi.R.I1 <- chisq.test(ds$i1, ds$rang); chi.R.I1
 mosaicplot(chi.R.I1$observed, shade = TRUE,
@@ -270,3 +270,4 @@ RE.I.13.prop <- round(prop.table(chi.RE.I13$observed) * 130, 2); RE.I.13.prop
 RE.I.13.plot <- ggplot(data = ds, mapping = aes(x = regiune, fill = i13)) + 
   geom_bar(position = "dodge") + xlab("Region") + 
   ylab("Frequency") + scale_fill_discrete(name = "Ads of \npublic interest"); RE.I.13.plot
+

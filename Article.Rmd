@@ -1,72 +1,56 @@
 ---
-title             : "Study on the degree of transparency of the local public administration in Romania in a pandemic context"
-shorttitle        : "Study on the degree of transparency of the local public administration in Romania in a pandemic context"
-
-author: 
-  - name          : "Mari-Isabella Stan"
-    affiliation   : "1"
-    corresponding : yes    # Define only one corresponding author
-    address       : "Postal address"
-    email         : "stanisabella@yahoo.com"
-    role:         # Contributorship roles (e.g., CRediT, https://casrai.org/credit/)
-      - "Conceptualization"
-      - "Writing - Original Draft Preparation"
-      - "Writing - Review & Editing"
-  - name          : "Cristian Opariuc-Dan"
-    affiliation   : "1"
-    role:
-      - "Writing - Review & Editing"
-      - "Supervision"
-      
-  - name          : "Tănase Tasențe"
-    affiliation   : "1"
-    role:
-      - "Writing - Review & Editing"
-      - "Supervision"
-
-affiliation:
-  - id            : "1"
-    institution   : "Ovidius University of Constanța, Romania, Faculty of Law and Administrative"
-
+title: "Transparency or Opacity? A Critical Examination of Public Access to Information in Romania's Local Administration"
+author:
+- name: "Mari-Isabella Stan"
+  affiliation: '1'
+  corresponding: yes
+  address: Postal address
+  email: stanisabella@yahoo.com
+  role:
+  - Conceptualization
+  - "Writing - Original Draft Preparation"
+  - "Writing - Review & Editing"
+- name: "Cristian Opariuc-Dan"
+  affiliation: '1'
+  role:
+  - "Writing - Review & Editing"
+  - Supervision
+- name: Tănase Tasențe
+  affiliation: '1'
+  role:
+  - "Writing - Review & Editing"
+  - Supervision
+shorttitle: "Transparency or Opacity? A Critical Examination of Public Access to Information in Romania's Local Administration"
+output:
+  papaja::apa6_docx:
+    citation_package: natbib
 
 authornote: |
   Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
-
   Enter author note here.
-
-abstract: |
-  One or two sentences providing a **basic introduction** to the field,  comprehensible to a scientist in any discipline.
-  
-  Two to three sentences of **more detailed background**, comprehensible  to scientists in related disciplines.
-  
-  One sentence clearly stating the **general problem** being addressed by  this particular study.
-  
-  One sentence summarizing the main result (with the words "**here we show**" or their equivalent).
-  
-  Two or three sentences explaining what the **main result** reveals in direct comparison to what was thought to be the case previously, or how the  main result adds to previous knowledge.
-  
-  One or two sentences to put the results into a more **general context**.
-  
-  Two or three sentences to provide a **broader perspective**, readily comprehensible to a scientist in any discipline.
-  
-  <!-- https://tinyurl.com/ybremelq -->
-  
-keywords          : "keywords"
-wordcount         : "X"
-
-bibliography      : "r-references.bib"
-
-floatsintext      : no
-linenumbers       : yes
-draft             : no
-mask              : no
-
-figurelist        : no
-tablelist         : no
-footnotelist      : no
-
-classoption       : "man"
-output            : papaja::apa6_pdf
+abstract: "One or two sentences providing a **basic introduction** to the field,  comprehensible  to a scientist in any discipline.\n\nTwo to three sentences of **more detailed background**,
+  comprehensible  to scientists in related disciplines.\n\nOne sentence clearly stating
+  the **general problem** being addressed by  this particular study.\n\nOne sentence
+  summarizing the main result (with the words \"**here we show**\" or their equivalent).\n\nTwo
+  or three sentences explaining what the **main result** reveals in direct comparison
+  to what was thought to be the case previously, or how the  main result adds to previous
+  knowledge.\n\nOne or two sentences to put the results into a more **general context**.\n\nTwo
+  or three sentences to provide a **broader perspective**, readily comprehensible
+  to a scientist in any discipline.\n\n<!-- https://tinyurl.com/ybremelq -->\n"
+keywords: keywords
+wordcount: X
+bibliography: "r-references.bib"
+floatsintext: no
+linenumbers: yes
+draft: no
+mask: no
+figurelist: no
+tablelist: no
+footnotelist: no
+classoption: man
+affiliation:
+- id: '1'
+  institution: Ovidius University of Constanța, Romania, Faculty of Law and Administrative
 ---
 
 ```{r setup, include = FALSE}
@@ -96,12 +80,36 @@ In this context, the purpose of this research, therefore, is to delve into the d
 
 # Literature review
 
+Transparency is heralded as a cornerstone of democracy, accountable governance, and ethical public administration [@androniceanuTransparencyPublicAdministration2021b; @armstrongIntegrityTransparencyAccountability2005]. It is intrinsically tied to the principle of openness in public administration (@drorTransparencyOpennessQuality1999; @bugaricOpennessTransparencyPublic2004] and profoundly impacts the public's trust in government [@kimEparticipationTransparencyTrust2012; @pozenSeeingTransparencyMore2020].
+
+Within public administration, transparency has been subject to various conceptualizations [@beblavyConceptualFrameworkUnderstanding2022; @erkkilaTransparencyPublicAdministration2020]. @beblavyConceptualFrameworkUnderstanding2022 advocate for a nuanced understanding of transparency, bifurcating it into process transparency, encapsulating the decision-making mechanisms, and output transparency, concerning the outcomes of these decisions.
+
+@erkkilaTransparencyPublicAdministration2020 introduces transparency within the purview of democratic control of public administration. He argues that transparency encompasses not only access to information but also its publicness and visibility, thereby highlighting the importance of context, interpretation, and the meaningfulness of data provided to the public.
+
+The role of transparency in engendering accountability in public administration cannot be overstated [@armstrongIntegrityTransparencyAccountability2005; @jashariRolePrincipleTransparency2018]. @armstrongIntegrityTransparencyAccountability2005 suggests that the interrelation of integrity, transparency, and accountability is paramount to achieving good governance. @jashariRolePrincipleTransparency2018 echo this perspective, positing that transparency is a prerequisite for accountability, facilitating stakeholders to evaluate the performance of public bodies critically.
+
+Additionally, transparency significantly influences the performance of municipalities [@araujoLocalGovernmentTransparency2016]. They purport that the effectiveness of service delivery and overall performance of local public bodies are correlated with the level of local government transparency.
+
+The relevance of transparency spans various aspects of public administration, such as public services [@bauhrWhenDoesTransparency2021], crisis communication [@pascanTransparencyPublicAdministration2021], and digitalization [@slabuTransparencyDigitalizationPublic2021; @mynenkoImpactDigitalizationTransparency2022]. @bauhrWhenDoesTransparency2021 propose that transparency could enhance public services by diminishing information asymmetries and optimizing service targeting. @pascanTransparencyPublicAdministration2021 underscores transparency's role in crisis communication, arguing that it helps to mitigate disinformation and foster public trust. In the era of digital transformation, @slabuTransparencyDigitalizationPublic2021 and @mynenkoImpactDigitalizationTransparency2022 discuss the potential of digitalization in augmenting transparency, making information more accessible and comprehensible.
+
+However, transparency should not be seen as an unqualified virtue [@pozenSeeingTransparencyMore2020; @demingoImprovingRecordsManagement2018]. @pozenSeeingTransparencyMore2020 warns of the unintended consequences of excessive transparency, such as decision-making paralysis, infringement of privacy, and manipulation of information. @demingoImprovingRecordsManagement2018 also highlight the importance of effective records management to prevent corruption, protect privacy, and promote transparency.
+
+@ruijerPoliticsOpenGovernment2020 caution against the potential politicization of transparency, suggesting that open government data can be manipulated to serve political incentives, leading to transparency itself becoming a tool for political maneuvering.
+
+Furthermore, public administration, especially at the local level, assumes a critical role in information provision and democratic governance [@edesRolePublicAdministration2000; @corinaIMAGELOCALPUBLIC2013]. @edesRolePublicAdministration2000 emphasizes the role of public administration in guaranteeing citizens' access to public information, and @corinaIMAGELOCALPUBLIC2013 accentuates the need for public administration to actively engage citizens and provide accessible, transparent, and valuable information.
+
+The digitalization of public administration emerges as an essential facet in transparency discourse [@baesuDigitalizationPublicAdministration2021; @banciuERomaniaACitizensGateway2009; @mateiFutureOnlineLearning2022]. @baesuDigitalizationPublicAdministration2021 observes how digitalization can boost efficiency, improve services, and enhance transparency. @banciuERomaniaACitizensGateway2009 perceives digitalization as a catalyst for not only improving public services but also crafting a citizen-oriented gateway towards public information. 
+
+@maier-rablerOpenChangingRelation2011 note that digitalization propounds a new paradigm for the relationship between citizens, public administration, and political authority, where digital tools enable greater citizen participation and transparency.
+
+The association between good administration, performance, and transparency is well established [@mateiGoodAdministrationPerformance2014; @mariusPublicAdministrationRegional2021]. @mateiGoodAdministrationPerformance2014 find a positive correlation between good administration, encompassing aspects of transparency, and public administration performance. 
+
+Moreover, the influence of Information and Communication Technologies (ICT) on public administration is significant [@deacImpactInformationCommunication2020; @mituImportanceCommunicationPublic2021]. @deacImpactInformationCommunication2020 asserts that ICT holds the potential to revolutionize public administration, particularly by enhancing transparency and improving service delivery. @mituImportanceCommunicationPublic2021 underscores the importance of effective communication in public administration, suggesting that it bolsters trust, credibility, and consequently, transparency.
+
+In this context, while the quest for absolute transparency may be impractical and fraught with potential issues such as privacy infringement and information manipulation, the absence of adequate transparency—or opaqueness—in local public administration can undermine democratic governance and accountability. Therefore, it is crucial to strike a balance, where transparency, as a nuanced, multidimensional construct, promotes accountability, facilitates informed citizen participation, and contributes to the effectiveness and integrity of public administration, while mitigating potential drawbacks through strategic management of information and careful utilization of digitalization.
+
 # Methods
 We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study. <!-- 21-word solution (Simmons, Nelson & Simonsohn, 2012; retrieved from http://ssrn.com/abstract=2160588) -->
-
-## Participants
-
-## Material
 
 ## Procedure
 
@@ -201,9 +209,7 @@ We used `r cite_r("r-references.bib")` for all our analyses.
   R.I.1.plot
 ```
 ## *a. The normative acts regulating the organization and operation of the public authority or institution*
-In terms of the normative acts regulating the organization and operation of the public authority or institution, statistically significant differences emerge (\(\chi\)^2^(`r df.chi.1`)=`r chi.1`, p=`r p.chi.1`), driven by the rank of the administrative-territorial unit. Indeed, it appears that these types of normative acts are less likely to exist at the level of villages (`r vil.n.1`%  "No" versus `r vil.y.1`% "Yes") compared to towns (`r cit.n.1`% versus `r cit.y.1`% "Yes") and municipalities (`r mun.n.1`% "No" versus `r mun.y.1`%  "Yes"), with statistically significant differences only between villages and the other two categories of administrative units (see figures \@ref(fig:Moz-Range-I1) și \@ref(fig:Bar-Range-I1)).
-
-În privința **actelor normative care reglementează organizarea și funcționarea autorității sau instituției publice** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.1`)=`r chi.1`, p=`r p.chi.1`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că actele normative de acest tip nu există mai curând la nivelul **comunelor** (`r vil.n.1`% „Nu” față de `r vil.y.1`% „Da”) în comparație cu orașele (`r cit.n.1`% „Nu” față de `r cit.y.1`% „Da”) și municipiile (`r mun.n.1`% „Nu” față de `r mun.y.1`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I1) și \@ref(fig:Bar-Range-I1)).
+În privința **actelor normative care reglementează organizarea și funcționarea autorității sau instituției publice**, postate pe website-urile oficiale, rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.1`)=`r chi.1`, p=`r p.chi.1`) determinate de rangul unității administrativ-teritoriale. Într-adevăr, se pare că actele normative de acest tip nu se regăsesc mai curând pe website-urile oficiale ale **comunelor** (`r vil.n.1`% „Nu” față de `r vil.y.1`% „Da”) în comparație cu website-urile oficiale ale orașelor (`r cit.n.1`% „Nu” față de `r cit.y.1`% „Da”) și ale municipiile (`r mun.n.1`% „Nu” față de `r mun.y.1`% „Da”), doar între comune și celelalte două categorii de unități administrativ-teritoriale existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I1) și \@ref(fig:Bar-Range-I1)). 
 
 ```{r Moz-Range-I2, fig.align='center', fig.cap='Contingency: - Locality rank vs. Organizatoric structure'}
   knitr::include_graphics("Article_files/figure-latex/Analysis-2.png")
@@ -213,7 +219,9 @@ In terms of the normative acts regulating the organization and operation of the 
 ```
 
 ## *b. Structura organizatorică, atribuțiile departamentelor, programul de funcționare, programul de audiențe al autorității sau instituției publice*
-Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelor, programul de funcționare, programul de audiențe al autorității sau instituției publice** nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.2`)=`r chi.2`, p=`r p.chi.2`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.2`%, Orașe: `r cit.y.2`%, Municipii: `r mun.y.2`%) în favoarea celor negative (Comune: `r vil.n.2`%, Orașe: `r cit.n.2`%, Municipii: `r mun.n.2`%) (vezi figurile \@ref(fig:Moz-Range-I2) și \@ref(fig:Bar-Range-I2)).
+Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelor, programul de funcționare, programul de audiențe al autorității sau instituției publice**, postate pe website-urile oficiale ale unității administrativ-teoritoriale, nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.2`)=`r chi.2`, p=`r p.chi.2`) determinate de rangul unității administrativ-teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.2`%, Orașe: `r cit.y.2`%, Municipii: `r mun.y.2`%) în favoarea celor negative (Comune: `r vil.n.2`%, Orașe: `r cit.n.2`%, Municipii: `r mun.n.2`%) (vezi figurile \@ref(fig:Moz-Range-I2) și \@ref(fig:Bar-Range-I2)).
+
+
 
 ```{r Moz-Range-I3, fig.align='center', fig.cap='Contingency: - Locality rank vs. Contacts of the persons in charge'}
   knitr::include_graphics("Article_files/figure-latex/Analysis-3.png")
@@ -223,7 +231,8 @@ Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelo
 ```
 
 ## *c. Numele și prenumele persoanelor din conducerea autorității sau a instituției publice și ale funcționarului responsabil cu difuzarea informațiilor publice*
-În ceea ce privește **numele persoanelor din conducerea autorității sau a instituției publice și ale funcționarului responsabil cu difuzarea informațiilor publice** nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.3`)=`r chi.3`, p=`r p.chi.3`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.3`%, Orașe: `r cit.y.3`%, Municipii: `r mun.y.3`%) în favoarea celor negative (Comune: `r vil.n.3`%, Orașe: `r cit.n.3`%, Municipii: `r mun.n.3`%) (vezi figurile \@ref(fig:Moz-Range-I3) și \@ref(fig:Bar-Range-I3)). 
+
+În ceea ce privește **numele persoanelor din conducerea autorității sau a instituției publice și ale funcționarului responsabil cu difuzarea informațiilor publice**, postate pe website-urile oficiale ale unității administrativ-teoritoriale, apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.3`)=`r chi.3`, p=`r p.chi.3`) determinate de rangul unității administrativ-teritoriale. Într-adevăr, se pare că acest tip de informații publice nu se regăsesc mai curând pe website-urile oficiale ale comunelor, (`r vil.n.3`% „Nu” față de `r vil.y.3`% „Da”) în comparație cu website-urile oficiale ale orașelor (`r cit.n.3`% „Nu” față de `r cit.y.3`% „Da”) și ale municipiile (`r mun.n.3`% „Nu” față de `r mun.y.3`% „Da”), doar între comune și celelalte două categorii de unități administrativ-teritoriale existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I3) și \@ref(fig:Bar-Range-I3)). 
 
 
 ```{r Moz-Range-I4, fig.align='center', fig.cap='Contingency: - Locality rank vs. Contact details of the public authority'}
@@ -234,7 +243,7 @@ Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelo
 ```
 
 ## *d. Coordonatele de contact ale autorității sau instituției publice, respectiv: denumirea, sediul, numerele de telefon, fax, adresa de e-mail și adresa paginii de Internet*
-În ceea ce privește **coordonatele de contact ale autorității sau instituției publice, respectiv: denumirea, sediul, numerele de telefon, fax, adresa de e-mail și adresa paginii de Internet** nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.4`)=`r chi.4`, p=`r p.chi.4`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.4`%, Orașe: `r cit.y.4`%, Municipii: `r mun.y.4`%) în favoarea celor negative (Comune: `r vil.n.4`%, Orașe: `r cit.n.4`%, Municipii: `r mun.n.4`%) (vezi figurile \@ref(fig:Moz-Range-I4) și \@ref(fig:Bar-Range-I4)). 
+În ceea ce privește **coordonatele de contact ale autorității sau instituției publice, respectiv: denumirea, sediul, numerele de telefon, fax, adresa de e-mail și adresa paginii de Internet**, postate pe website-urile oficiale ale unității administrativ-teoritoriale, nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.4`)=`r chi.4`, p=`r p.chi.4`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.4`%, Orașe: `r cit.y.4`%, Municipii: `r mun.y.4`%) în favoarea celor negative (Comune: `r vil.n.4`%, Orașe: `r cit.n.4`%, Municipii: `r mun.n.4`%) (vezi figurile \@ref(fig:Moz-Range-I4) și \@ref(fig:Bar-Range-I4)). 
 
 ```{r Moz-Range-I5, fig.align='center', fig.cap='Contingency: - Locality rank vs. Financial sources, budget and balance sheet'}
   knitr::include_graphics("Article_files/figure-latex/Analysis-5.png")
@@ -244,7 +253,7 @@ Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelo
 ```
 
 ## *e. Sursele financiare, bugetul și bilanțul contabil*
-În ceea ce privește **sursele financiare, bugetul și bilanțul contabil** nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.5`)=`r chi.5`, p=`r p.chi.5`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.5`%, Orașe: `r cit.y.5`%, Municipii: `r mun.y.5`%) în favoarea celor negative (Comune: `r vil.n.5`%, Orașe: `r cit.n.5`%, Municipii: `r mun.n.5`%) (vezi figurile \@ref(fig:Moz-Range-I5) și \@ref(fig:Bar-Range-I5)). 
+În ceea ce privește **sursele financiare, bugetul și bilanțul contabil**, postate pe website-urile oficiale ale unității administrativ-teoritoriale, nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.5`)=`r chi.5`, p=`r p.chi.5`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.5`%, Orașe: `r cit.y.5`%, Municipii: `r mun.y.5`%) în favoarea celor negative (Comune: `r vil.n.5`%, Orașe: `r cit.n.5`%, Municipii: `r mun.n.5`%) (vezi figurile \@ref(fig:Moz-Range-I5) și \@ref(fig:Bar-Range-I5)). 
 
 ```{r Moz-Range-I6, fig.align='center', fig.cap='Contingency: - Locality rank vs. Own programs and strategies'}
   knitr::include_graphics("Article_files/figure-latex/Analysis-6.png")
@@ -254,7 +263,7 @@ Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelo
 ```
 
 ## *f. Programele și strategiile proprii*
-În privința **programele și strategiile proprii** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.6`)=`r chi.6`, p=`r p.chi.6`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că actele normative de acest tip nu există mai curând la nivelul **comunelor** (`r vil.n.6`% „Nu” față de `r vil.y.6`% „Da”) în comparație cu orașele (`r cit.n.6`% „Nu” față de `r cit.y.6`% „Da”) și municipiile (`r mun.n.6`% „Nu” față de `r mun.y.6`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I6) și \@ref(fig:Bar-Range-I6)).
+În privința **programele și strategiile proprii**, postate pe website-urile oficiale ale unității administrativ-teoritoriale, rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.6`)=`r chi.6`, p=`r p.chi.6`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că actele normative de acest tip nu există mai curând la nivelul **comunelor** (`r vil.n.6`% „Nu” față de `r vil.y.6`% „Da”) în comparație cu orașele (`r cit.n.6`% „Nu” față de `r cit.y.6`% „Da”) și municipiile (`r mun.n.6`% „Nu” față de `r mun.y.6`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I6) și \@ref(fig:Bar-Range-I6)).
 
 ```{r Moz-Range-I7, fig.align='center', fig.cap='Contingency: - Locality rank vs. The list of documents of public interest'}
   knitr::include_graphics("Article_files/figure-latex/Analysis-7.png")
@@ -264,7 +273,7 @@ Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelo
 ```
 
 ## *g. Lista cuprinzând documentele de interes public*
-În privința **lista cuprinzând documentele de interes public** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.7`)=`r chi.7`, p=`r p.chi.7`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că lista documentelor de interes public nu există mai curând la nivelul **comunelor** (`r vil.n.7`% „Nu” față de `r vil.y.7`% „Da”) în comparație cu orașele (`r cit.n.7`% „Nu” față de `r cit.y.7`% „Da”) și municipiile (`r mun.n.7`% „Nu” față de `r mun.y.7`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I7) și \@ref(fig:Bar-Range-I7)).
+În privința **lista cuprinzând documentele de interes public**, postate pe website-urile oficiale ale unității administrativ-teoritoriale, rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.7`)=`r chi.7`, p=`r p.chi.7`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că lista documentelor de interes public nu există mai curând la nivelul **comunelor** (`r vil.n.7`% „Nu” față de `r vil.y.7`% „Da”) în comparație cu orașele (`r cit.n.7`% „Nu” față de `r cit.y.7`% „Da”) și municipiile (`r mun.n.7`% „Nu” față de `r mun.y.7`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I7) și \@ref(fig:Bar-Range-I7)).
 
 ```{r Moz-Range-I8, fig.align='center', fig.cap='Contingency: - Locality rank vs. the list containing the categories of documents produced and / or managed, according to the law'}
   knitr::include_graphics("Article_files/figure-latex/Analysis-8.png")
@@ -274,7 +283,7 @@ Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelo
 ```
 
 ## *h. Lista cuprinzând categoriile de documente produse și/sau gestionate, potrivit legii*
-În privința **lista cuprinzând categoriile de documente produse și/sau gestionate, potrivit legii** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.8`)=`r chi.8`, p=`r p.chi.8`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că lista cuprinzând categoriile de documente produse și/sau gestionate nu există mai curând la nivelul **comunelor** (`r vil.n.8`% „Nu” față de `r vil.y.8`% „Da”) în comparație cu orașele (`r cit.n.8`% „Nu” față de `r cit.y.8`% „Da”) și municipiile (`r mun.n.8`% „Nu” față de `r mun.y.8`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I8) și \@ref(fig:Bar-Range-I8)).
+În privința **lista cuprinzând categoriile de documente produse și/sau gestionate, potrivit legii**, postate pe website-urile oficiale ale unității administrativ-teoritoriale, rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.8`)=`r chi.8`, p=`r p.chi.8`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că lista cuprinzând categoriile de documente produse și/sau gestionate nu există mai curând la nivelul **comunelor** (`r vil.n.8`% „Nu” față de `r vil.y.8`% „Da”) în comparație cu orașele (`r cit.n.8`% „Nu” față de `r cit.y.8`% „Da”) și municipiile (`r mun.n.8`% „Nu” față de `r mun.y.8`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I8) și \@ref(fig:Bar-Range-I8)).
 
 ```{r Moz-Range-I9, fig.align='center', fig.cap='Contingency: - Locality rank vs. The modalities of contesting the decision'}
   knitr::include_graphics("Article_files/figure-latex/Analysis-9.png")
@@ -284,7 +293,8 @@ Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelo
 ```
 
 ## *i. Modalitățile de contestare a deciziei autorității sau a instituției publice în situația în care persoana se considera vătămată în privința dreptului de acces la informațiile de interes public solicitate*
-În privința **modalitățile de contestare a deciziei autorității sau a instituției publice în situația în care persoana se considera vătămată în privința dreptului de acces la informațiile de interes public solicitate** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.9`)=`r chi.9`, p=`r p.chi.9`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că modalitatile de contestare a deciziei autorității sau a instituției publice nu există mai curând la nivelul **comunelor** (`r vil.n.9`% „Nu” față de `r vil.y.9`% „Da”) în comparație cu orașele (`r cit.n.9`% „Nu” față de `r cit.y.9`% „Da”) și municipiile (`r mun.n.9`% „Nu” față de `r mun.y.9`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I9) și \@ref(fig:Bar-Range-I9)).
+
+În privința **modalitățile de contestare a deciziei autorității sau a instituției publice în situația în care persoana se considera vătămată în privința dreptului de acces la informațiile de interes public solicitate**, postate pe website-urile oficiale ale unității administrativ-teoritoriale, rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.9`)=`r chi.9`, p=`r p.chi.9`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că modalitatile de contestare a deciziei autorității sau a instituției publice nu există mai curând la nivelul **comunelor** (`r vil.n.9`% „Nu” față de `r vil.y.9`% „Da”) în comparație cu orașele (`r cit.n.9`% „Nu” față de `r cit.y.9`% „Da”) și municipiile (`r mun.n.9`% „Nu” față de `r mun.y.9`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I9) și \@ref(fig:Bar-Range-I9)).
 
 ```{r Moz-Range-I10, fig.align='center', fig.cap='Contingency: - Locality rank vs. Wealth and interest statements'}
   knitr::include_graphics("Article_files/figure-latex/Analysis-10.png")
@@ -294,7 +304,7 @@ Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelo
 ```
 
 ## *j. Declarații de avere și interese*
-În ceea ce privește **Declarații de avere și interese** nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.10`)=`r chi.10`, p=`r p.chi.10`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.10`%, Orașe: `r cit.y.10`%, Municipii: `r mun.y.10`%) în favoarea celor negative (Comune: `r vil.n.10`%, Orașe: `r cit.n.10`%, Municipii: `r mun.n.10`%) (vezi figurile \@ref(fig:Moz-Range-I10) și \@ref(fig:Bar-Range-I10)). 
+În ceea ce privește **Declarații de avere și interese**, postate pe website-urile oficiale ale unității administrativ-teoritoriale, nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.10`)=`r chi.10`, p=`r p.chi.10`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.10`%, Orașe: `r cit.y.10`%, Municipii: `r mun.y.10`%) în favoarea celor negative (Comune: `r vil.n.10`%, Orașe: `r cit.n.10`%, Municipii: `r mun.n.10`%) (vezi figurile \@ref(fig:Moz-Range-I10) și \@ref(fig:Bar-Range-I10)). 
 
 ```{r Moz-Range-I11, fig.align='center', fig.cap='Contingency: - Locality rank vs. Council decisions'}
   knitr::include_graphics("Article_files/figure-latex/Analysis-11.png")
@@ -304,7 +314,8 @@ Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelo
 ```
 
 ## *k. Hotărâri de Consiliu*
-În ceea ce privește **Hotărâri de Consiliu** nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.11`)=`r chi.11`, p=`r p.chi.11`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.11`%, Orașe: `r cit.y.11`%, Municipii: `r mun.y.11`%) în favoarea celor negative (Comune: `r vil.n.11`%, Orașe: `r cit.n.11`%, Municipii: `r mun.n.11`%) (vezi figurile \@ref(fig:Moz-Range-I11) și \@ref(fig:Bar-Range-I11)). 
+
+În ceea ce privește **Hotărârile de Consiliu**, postate pe website-urile oficiale ale unității administrativ-teoritoriale, apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.11`)=`r chi.11`, p=`r p.chi.11`) determinate de rangul unității administrativ-teritoriale. Într-adevăr, se pare că acest tip de informații publice nu se regăsesc mai curând pe website-urile oficiale ale comunelor, (`r vil.n.11`% „Nu” față de `r vil.y.11`% „Da”) în comparație cu website-urile oficiale ale orașelor (`r cit.n.11`% „Nu” față de `r cit.y.11`% „Da”) și ale municipiile (`r mun.n.11`% „Nu” față de `r mun.y.11`% „Da”), doar între comune și celelalte două categorii de unități administrativ-teritoriale existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I11) și \@ref(fig:Bar-Range-I11)). 
 
 ```{r Moz-Range-I12, fig.align='center', fig.cap='Contingency: - Locality rank vs. Public procurement contracts'}
   knitr::include_graphics("Article_files/figure-latex/Analysis-12.png")
@@ -314,7 +325,7 @@ Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelo
 ```
 
 ## *l. Contracte de achiziții publice*
-În privința **Contracte de achiziții publice** rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.12`)=`r chi.12`, p=`r p.chi.12`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că contracte de achizitii publice nu există mai curând la nivelul **comunelor** (`r vil.n.12`% „Nu” față de `r vil.y.12`% „Da”) în comparație cu orașele (`r cit.n.12`% „Nu” față de `r cit.y.12`% „Da”) și municipiile (`r mun.n.12`% „Nu” față de `r mun.y.12`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I12) și \@ref(fig:Bar-Range-I12)).
+În privința **Contracte de achiziții publice**, postate pe website-urile oficiale ale unității administrativ-teoritoriale, rezultă diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.12`)=`r chi.12`, p=`r p.chi.12`) determinate de rangul unității administrativ teritoriale. Într-adevăr, se pare că contracte de achizitii publice nu există mai curând la nivelul **comunelor** (`r vil.n.12`% „Nu” față de `r vil.y.12`% „Da”) în comparație cu orașele (`r cit.n.12`% „Nu” față de `r cit.y.12`% „Da”) și municipiile (`r mun.n.12`% „Nu” față de `r mun.y.12`% „Da”), doar între comune și celelalte două categorii de unități administrative existând diferențe statistic semnificative (vezi figurile \@ref(fig:Moz-Range-I12) și \@ref(fig:Bar-Range-I12)).
 
 ```{r Moz-Range-I13, fig.align='center', fig.cap='Contingency: - Locality rank vs. Ads of public interest'}
   knitr::include_graphics("Article_files/figure-latex/Analysis-13.png")
@@ -324,11 +335,33 @@ Din punct de vedere al **structurii organizatorice, atribuțiilor departamentelo
 ```
 
 ## *m. Anunțuri de interes public*
-În ceea ce privește **Anunțuri de interes public** nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.13`)=`r chi.13`, p=`r p.chi.13`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.13`%, Orașe: `r cit.y.13`%, Municipii: `r mun.y.13`%) în favoarea celor negative (Comune: `r vil.n.13`%, Orașe: `r cit.n.13`%, Municipii: `r mun.n.13`%) (vezi figurile \@ref(fig:Moz-Range-I13) și \@ref(fig:Bar-Range-I13)). 
-
-# Analiza contingenței în funcție de regiunea de dezvoltare a României 
+În ceea ce privește **Anunțuri de interes public**, postate pe website-urile oficiale ale unității administrativ-teoritoriale, nu apar diferențe statistic semnificative (\(\chi\)^2^(`r df.chi.13`)=`r chi.13`, p=`r p.chi.13`) determinate de rangul unității administrativ teritoriale. La toate aceste unități predomină evaluările pozitive (Comune: `r vil.y.13`%, Orașe: `r cit.y.13`%, Municipii: `r mun.y.13`%) în favoarea celor negative (Comune: `r vil.n.13`%, Orașe: `r cit.n.13`%, Municipii: `r mun.n.13`%) (vezi figurile \@ref(fig:Moz-Range-I13) și \@ref(fig:Bar-Range-I13)). 
 
 # Discussion
+
+În contextul evaluării proceselor normative care guvernează structura și funcționarea autorităților sau instituțiilor publice, incluzând informații privind conducerea acestora, există discrepanțe semnificative observate între entitățile de diferite niveluri administrativ-teritoriale. Predomină o reducere semnificativă a acestor tipuri de informații pe paginile oficiale ale comunelor comparativ cu orașele și municipiile.
+
+Însă, în ceea ce privește structura organizatorică, responsabilitățile departamentelor, programul de funcționare, programul de audiențe, coordonatele de contact (denumire, sediu, numere de telefon, fax, adresa de e-mail și adresa site-ului web), sursele financiare, bugetul, bilanțul contabil și declarațiile de avere și interese, diferențele între unitățile administrativ-teritoriale de diferite ranguri nu sunt semnificative. O posibilă explicație este faptul că transparența în cazul achizițiilor publice este asigurată și prin Sistemul Electronic de Achiziții Publice (SEAP), iar transparența pentru declarațiile de avere și interese este garantată de Agenția Națională de Integritate (ANI). Evaluările pozitive sunt mai frecvente în aceste contexte, indiferent de nivelul administrativ-teritorial.
+
+Cu toate acestea, se pot observa diferențe semnificative cu privire la programele și strategiile proprii, lista documentelor de interes public, lista categoriilor de documente create și/sau gestionate, metodele de contestare a deciziilor autorităților sau instituțiilor publice, contractele de achiziții publice și deciziile Consiliului. În acest sens, comunelor le lipsesc aceste tipuri de informații comparativ cu orașele și municipiile. De asemenea, se constată lipsa unor sancțiuni administrative corespunzătoare pentru autoritățile și instituțiile publice care nu îndeplinesc obligația de a asigura accesul la informațiile de interes public din oficiu.
+
+În cele din urmă, în ceea ce privește anunțurile de interes public, nu există diferențe semnificative între unitățile administrativ-teritoriale de diferite ranguri, evaluările pozitive fiind predominante în toate aceste unități.
+
+În contextul studiului pe care îl realizăm, intenționăm să abordăm posibilele cauze care pot explica discrepanțele observate în ceea ce privește nivelul de transparență administrativă între comune, pe de o parte, și orașe și municipii, pe de altă parte. În ciuda complexității și naturii multifactoriale a acestui domeniu, vom aduce în discuție cinci posibile direcții de cercetare: 
+
+**Inegalități de resurse**. Unul dintre cele mai evidente aspecte care diferă între comune și orașe sau municipii este reprezentat de resurse. Acesta poate fi un factor decisiv în procesul de divulgare a informațiilor și, implicit, în asigurarea unui nivel corespunzător de transparență. Având în vedere că, în mod tradițional, comunele dispun de resurse mai limitate, acestea pot întâmpina dificultăți majore în punerea în aplicare a unor politici de transparență eficiente. Acest deficit de resurse poate fi observat în termeni de acces la tehnologie, dar și în ceea ce privește resursa umană, unde numărul de angajați, gradul lor de educație și formare pot fi deficite majore. Astfel, există posibilitatea ca nivelul de transparență să fie direct proporțional cu resursele disponibile, ceea ce ar putea explica discrepanța observată între comune și orașe sau municipii.
+
+**Interacțiunea cu stakeholders**. O altă posibilă explicație a diferenței de transparență între comune și orașe sau municipii ar putea fi reprezentată de gradul de interacțiune cu partea interesată. Densitatea mai mare a populației și expunerea mai mare la public în cazul orașelor și municipiilor ar putea determina o cerere mai mare de transparență și responsabilitate. În contrast, comunele, fiind mai izolate și având un contact mai redus cu partea interesată, pot simți o presiune mai mică pentru a se conforma standardelor de transparență. Acest factor poate avea o influență semnificativă asupra nivelului de transparență, deoarece presiunea publică poate determina o mai mare deschidere și responsabilizare a administrației locale.
+
+**Cultura organizațională**. Cultura organizațională este un alt element care poate avea un impact major asupra nivelului de transparență. În funcție de cultura, tradițiile și normele sociale predominante, structurile administrației locale pot varia considerabil, ceea ce poate influența modul în care informațiile sunt gestionate și divulgate. În acest sens, în unele comune, ar putea exista o cultură de secretivitate sau o rezistență la schimbare, care ar putea împiedica divulgarea eficientă a informațiilor. Această rezistență la schimbare poate fi alimentată și de o lipsă de conștientizare a importanței transparenței pentru funcționarea eficientă a administrației locale.
+
+**Reglementări și norme juridice**. Un alt aspect care ar putea contribui la discrepanța în nivelul de transparență este cunoașterea și înțelegerea reglementărilor și normelor juridice. Este posibil ca, în unele comune, să existe o conștientizare insuficientă a obligațiilor legale în materie de divulgare a informațiilor. Această lipsă de cunoștințe sau o înțelegere greșită a legilor ar putea duce la un nivel mai scăzut de transparență.
+
+**Prioritățile politice**. Prioritățile politice pot fi, de asemenea, o sursă importantă de discrepanță în ceea ce privește nivelul de transparență. În comune, problemele imediate și tangibile, precum infrastructura sau serviciile publice, pot fi considerate mai urgente decât transparența informațională. În aceste condiții, resursele disponibile ar putea fi alocate într-o măsură mai mare către aceste probleme, în detrimentul transparenței.
+
+Concluzionând, există multiple perspective din care putem înțelege discrepanțele în ceea ce privește nivelul de transparență între comune și orașe sau municipii. Fiecare din aceste perspective oferă o cale de explorare pentru înțelegerea mai profundă a acestei probleme și pentru identificarea de soluții potențiale. Deși necesită o abordare complexă și multifactorială, îmbunătățirea transparenței la nivelul administrației locale este o necesitate care ar putea contribui semnificativ la îmbunătățirea calității serviciilor publice și la consolidarea încrederii cetățenilor în administrația locală.
+
+# Conclusions
 
 
 \newpage
