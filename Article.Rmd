@@ -24,19 +24,13 @@ shorttitle: "Transparency or Opacity? A Critical Examination of Public Access to
 output:
   papaja::apa6_docx:
     citation_package: natbib
-
 authornote: |
-  Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
-  Enter author note here.
-abstract: "One or two sentences providing a **basic introduction** to the field,  comprehensible  to a scientist in any discipline.\n\nTwo to three sentences of **more detailed background**,
-  comprehensible  to scientists in related disciplines.\n\nOne sentence clearly stating
-  the **general problem** being addressed by  this particular study.\n\nOne sentence
-  summarizing the main result (with the words \"**here we show**\" or their equivalent).\n\nTwo
-  or three sentences explaining what the **main result** reveals in direct comparison
-  to what was thought to be the case previously, or how the  main result adds to previous
-  knowledge.\n\nOne or two sentences to put the results into a more **general context**.\n\nTwo
-  or three sentences to provide a **broader perspective**, readily comprehensible
-  to a scientist in any discipline.\n\n<!-- https://tinyurl.com/ybremelq -->\n"
+    Stan Mari-Isabella (Orcid ID: https://orcid.org/0000-0001-7509-4038): Lecturer at Department of Administrative and Social Sciences, Faculty of of Law and Administrative Sciences, Ovidius University of Constanţa, in Romania. She completed two Master's Programs: "Coastal Engineering" in 1998 and "Public Policy and Public Administration" in 2002, and received her Ph.D. degree in 2007. Research  interest: coastal construction, urbanism, project management, maritime spatial planning.
+        Cristian Opariuc-Dan (Orcid ID: https://orcid.org/0000-0003-4079-0142) is a lecturer at the Faculty of Law and Administrative Sciences at Ovidius University in Constanta. He holds a Bachelor's degree in Psychology, a Master's degree in Administrative Sciences, and a PhD in Psychology. He serves as the coordinator of the Law and Public Administration programs (part-time education) at Ovidius University and is an associate professor in the Doctoral Schools of Psychology and Education Sciences at the University of Bucharest and "Al. I. Cuza" University in Iasi. With over 50 scientific articles published in specialized journals and as the author and co-author of 5 books in the field of statistics and data analysis, he has demonstrated his expertise in the academic field.
+        Tanase Tasente (Orcid ID: https://orcid.org/0000-0002-3164-5894) is a lecturer and ERASMUS coordinator at the Faculty of Law and Administrative Sciences at Ovidius University in Constanta. He holds a bachelor's, master's, and doctoral degree in Communication Sciences and a master's degree in European Administration, Institutions, and Public Policies. With over 100 published scientific papers and 4 authored books on institutional communication through social media and public policy strategies, the author has made significant contributions to the academic community. Additionally, he is the director of two international public relations companies, Plus Communication and International Communication & PR, where they have overseen marketing, advertising, and public relations campaigns for renowned multinational companies. His combination of academic and professional experience has equipped them with the necessary skills and knowledge to excel in various fields of communication and administration.
+    
+abstract: |
+  One or two 
 keywords: keywords
 wordcount: X
 bibliography: "r-references.bib"
