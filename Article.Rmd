@@ -108,12 +108,42 @@ Moreover, the influence of Information and Communication Technologies (ICT) on p
 
 In this context, while the quest for absolute transparency may be impractical and fraught with potential issues such as privacy infringement and information manipulation, the absence of adequate transparency—or opaqueness—in local public administration can undermine democratic governance and accountability. Therefore, it is crucial to strike a balance, where transparency, as a nuanced, multidimensional construct, promotes accountability, facilitates informed citizen participation, and contributes to the effectiveness and integrity of public administration, while mitigating potential drawbacks through strategic management of information and careful utilization of digitalization.
 
-# Methods
-We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study. <!-- 21-word solution (Simmons, Nelson & Simonsohn, 2012; retrieved from http://ssrn.com/abstract=2160588) -->
+# Methodology
 
-## Procedure
+## Research objectives
+
+O1: To assess the transparency and accessibility of public interest information available on the official websites of selected administrative-territorial units in Romania.
+
+O2: To identify patterns or correlations, if any, between the rank of the administrative-territorial units and the availability of public interest information on their websites.
+
+## Data collection
+
+For data collection, we visited the official websites of 126 administrative-territorial units in Romania, selecting three from each county based on a ranking criterion: 1 - the county seat municipality, typically the largest locality in the county; 2 - a town, generally the second or third largest in the county; 3 - a commune, specifically the one with the highest number of inhabitants.
+
+Subsequently, we pursued the presence of the following official documents or public interest information:
+
+Item 1 - Normative acts regulating the organization and operation of the authority or public institution
+Item 2 - Organizational structure, responsibilities of the departments, operation program, public audience program of the authority or institution
+Item 3 - Names and surnames of the leaders of the authority or institution and of the officer responsible for disseminating public information
+Item 4 - Contact details of the authority or institution, namely: name, headquarters, phone numbers, fax, email address, and website address
+Item 5 - Financial sources, budget, and balance sheet
+Item 6 - The authority's or institution's own programs and strategies
+Item 7 - A list encompassing the documents of public interest
+Item 8 - A list containing the categories of documents produced and/or managed, according to the law
+Item 9 - The methods of challenging the decision of the authority or institution when a person feels aggrieved regarding the right to access the requested public interest information
+Item 10 - Declarations of wealth and interests
+Item 11 - Council resolutions
+Item 12 - Public procurement contracts
+Item 13 - Public interest announcements
+
+The presence or absence of these elements on the websites of the administrative-territorial units was coded as "Yes" or "No", respectively.
+
 
 ## Data analysis
+In the data analysis phase of this study, we utilized a systematic and statistical approach to identify relationships and patterns among the dataset variables.
+
+We primarily employed the Chi-squared test, a statistical hypothesis test that determines whether there is a significant association between two categorical variables. In our case, these variables were the rank of the administrative-territorial units and the availability of each item of public interest information.
+
 We used `r cite_r("r-references.bib")` for all our analyses.
 
 
@@ -121,7 +151,7 @@ We used `r cite_r("r-references.bib")` for all our analyses.
 ```{r Analysis, echo=F, include=F}
   source("01 - Analysis.R")
 ```
-# Contingency analysis based on the rank of the locality
+
 ```{r Range, echo=F}
   # Item 1
   chi.1 <- round(chi.R.I1$statistic, 2);  df.chi.1 <- chi.R.I1$parameter; p.chi.1 <- chi.R.I1$p.value
